@@ -1,0 +1,62 @@
+{
+  "name": "eslint-config-altnext",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/altnext/eslint-config-altnext.git"
+  },
+  "author": "Altnext Gorillaz",
+  "eslintIgnore": [
+    "dist",
+    "node_modules"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "files": [
+    "**/*.js"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean",
+    "lint": "eslint --ext .ts . --cache",
+    "prepare": "husky install",
+    "prerelease": "yarn build",
+    "release": "changeset publish",
+    "type": "tsc --noEmit --noImplicitAny"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "eslint": "7.27.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-import-resolver-typescript": "2.4.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-jest": "24.3.6",
+    "eslint-plugin-jest-formatting": "3.0.0",
+    "eslint-plugin-jest-playwright": "0.3.3",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-unicorn": "32.0.1",
+    "lint-staged": "11.0.0",
+    "prettier": "2.3.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.0",
+    "@changesets/cli": "^2.16.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/eslint": "7.2.13",
+    "eslint-config-altnext": "0.0.2",
+    "husky": "^6.0.0",
+    "typescript": "^4.3.4"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --quiet --cache"
+    ]
+  }
+}
