@@ -30,7 +30,6 @@ const typeChecking: Linter.Config = {
     '@typescript-eslint/restrict-template-expressions': WARN,
     '@typescript-eslint/return-await': [ERROR, 'in-try-catch'],
     '@typescript-eslint/switch-exhaustiveness-check': ERROR,
-    // TODO - fix
     '@typescript-eslint/unbound-method': WARN,
     '@typescript-eslint/require-await': ERROR,
   },

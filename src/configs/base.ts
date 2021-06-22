@@ -37,7 +37,6 @@ const base: Linter.Config = {
     'consistent-return': [WARN, { treatUndefinedAsUnspecified: true }],
     curly: ERROR,
     'default-case': ERROR,
-    'dot-notation': ERROR,
     eqeqeq: ERROR,
     'guard-for-in': WARN,
     'lines-between-class-members': ERROR,
@@ -54,7 +53,7 @@ const base: Linter.Config = {
     'no-extra-bind': ERROR,
     'no-floating-decimal': ERROR,
     'no-implicit-coercion': [ERROR, { allow: ['!!'] }],
-    // 'no-invalid-this': ERROR, // TODO - DAB's socket.controller.ts (DIMA)
+    'no-invalid-this': WARN,
     'no-iterator': ERROR,
     'no-lone-blocks': ERROR,
     'no-lonely-if': ERROR,
@@ -126,7 +125,7 @@ const base: Linter.Config = {
     '@typescript-eslint/consistent-type-definitions': ERROR,
     '@typescript-eslint/consistent-type-imports': ERROR,
     '@typescript-eslint/class-literal-property-style': ERROR,
-    // '@typescript-eslint/dot-notation': ERROR, // TODO - enable this instead of eslint base rule
+    '@typescript-eslint/dot-notation': ERROR,
     '@typescript-eslint/default-param-last': ERROR,
     '@typescript-eslint/explicit-function-return-type': [ERROR, { allowExpressions: true }],
     '@typescript-eslint/explicit-member-accessibility': [ERROR, { accessibility: 'no-public' }],
@@ -155,11 +154,10 @@ const base: Linter.Config = {
     '@typescript-eslint/no-unused-expressions': [ERROR, { allowTernary: true }],
     '@typescript-eslint/no-unused-vars': [ERROR, { ignoreRestSiblings: true }],
 
-    // TODO - see why this group errors everywhere
-    '@typescript-eslint/no-unsafe-assignment': OFF,
-    '@typescript-eslint/no-unsafe-call': OFF,
-    '@typescript-eslint/no-unsafe-member-access': OFF,
-    '@typescript-eslint/no-unsafe-return': OFF,
+    '@typescript-eslint/no-unsafe-assignment': WARN,
+    '@typescript-eslint/no-unsafe-call': WARN,
+    '@typescript-eslint/no-unsafe-member-access': WARN,
+    '@typescript-eslint/no-unsafe-return': WARN,
 
     '@typescript-eslint/no-use-before-define': WARN,
     '@typescript-eslint/no-useless-constructor': ERROR,
@@ -224,21 +222,21 @@ const base: Linter.Config = {
     'jsx-a11y/no-autofocus': OFF,
 
     'react/display-name': WARN,
-    'react/jsx-boolean-value': WARN, // TODO - fix places that report this
-    'react/jsx-curly-brace-presence': [WARN, { props: 'always' }], // TODO - fix places that report this
-    'react/jsx-fragments': WARN, // TODO - fix places that report this
-    'react/jsx-no-bind': WARN, // TODO - fix places that report this
+    'react/jsx-boolean-value': ERROR,
+    'react/jsx-curly-brace-presence': [ERROR, { props: 'always' }],
+    'react/jsx-fragments': ERROR,
+    'react/jsx-no-bind': ERROR,
     'react/jsx-no-script-url': ERROR,
     'react/jsx-no-target-blank': ERROR,
-    'react/jsx-no-useless-fragment': WARN, // TODO - fix places that report this
+    'react/jsx-no-useless-fragment': ERROR,
     'react/jsx-pascal-case': [ERROR, { ignore: ['DAB'] }],
-    'react/jsx-sort-props': [WARN, { shorthandLast: true, reservedFirst: true }], // TODO - fix places that report this
+    'react/jsx-sort-props': [ERROR, { shorthandLast: true, reservedFirst: true }],
     'react/jsx-uses-react': OFF,
-    'react/no-array-index-key': WARN, // TODO - fix places that report this
+    'react/no-array-index-key': ERROR,
     'react/no-children-prop': ERROR,
     'react/no-danger': ERROR,
     'react/no-string-refs': [ERROR, { noTemplateLiterals: true }],
-    'react/no-unescaped-entities': WARN, // TODO - fix places that report this
+    'react/no-unescaped-entities': ERROR,
     'react/prefer-stateless-function': ERROR,
     'react/prop-types': OFF,
     'react/react-in-jsx-scope': OFF,
