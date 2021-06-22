@@ -15,7 +15,7 @@ const typeChecking: Linter.Config = {
     'import/resolver': { node: { extensions: ['.ts', '.jsx', '.js', '.tsx', '.json'] }, typescript: {} },
     jest: { version: 27 },
   },
-  extends: ['./configs/base', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
+  extends: ['./src/configs/base', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
   rules: {
     '@typescript-eslint/no-base-to-string': ERROR,
     '@typescript-eslint/no-confusing-void-expression': ERROR,

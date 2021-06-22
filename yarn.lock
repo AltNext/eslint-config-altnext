@@ -167,7 +167,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.5.5":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.2", "@babel/runtime@^7.5.5":
   version "7.14.6"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
@@ -1347,6 +1347,29 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
+eslint-config-altnext@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/eslint-config-altnext/-/eslint-config-altnext-0.0.1.tgz#6fbd340b50ab831ff00ef898fd1dea644043f233"
+  integrity sha512-j9UvwHD+N6h4VOwWApT267MInhRbeN3OggMEBxixLt/A2yyE2Y8ArEXSV7/MNr6y4HB9uCBF74Jd9NapB0NyvA==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "4.25.0"
+    "@typescript-eslint/parser" "4.25.0"
+    eslint "7.27.0"
+    eslint-config-prettier "8.3.0"
+    eslint-import-resolver-alias "1.1.2"
+    eslint-import-resolver-typescript "2.4.0"
+    eslint-plugin-import "2.23.4"
+    eslint-plugin-jest "24.3.6"
+    eslint-plugin-jest-formatting "3.0.0"
+    eslint-plugin-jest-playwright "0.3.3"
+    eslint-plugin-jsx-a11y "6.4.1"
+    eslint-plugin-node "11.1.0"
+    eslint-plugin-prettier "3.4.0"
+    eslint-plugin-react "7.24.0"
+    eslint-plugin-react-hooks "4.2.0"
+    eslint-plugin-unicorn "32.0.1"
+    prettier "2.3.0"
+
 eslint-config-prettier@8.3.0:
   version "8.3.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
@@ -2181,7 +2204,7 @@ isexe@^2.0.0:
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.13.0, js-yaml@^3.6.1, js-yaml@^3.13.1:
+js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.6.1:
   version "3.14.1"
   resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
