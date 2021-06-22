@@ -1347,10 +1347,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-altnext@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/eslint-config-altnext/-/eslint-config-altnext-0.0.1.tgz#6fbd340b50ab831ff00ef898fd1dea644043f233"
-  integrity sha512-j9UvwHD+N6h4VOwWApT267MInhRbeN3OggMEBxixLt/A2yyE2Y8ArEXSV7/MNr6y4HB9uCBF74Jd9NapB0NyvA==
+eslint-config-altnext@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/eslint-config-altnext/-/eslint-config-altnext-0.0.2.tgz#5a8fa14e81b6142e71d084b8b8506087fd51bbbc"
+  integrity sha512-RpeVMO/szAD/8inKZx5NJuprer7DXqvbiZ4JNPgkwuGWKXDmo+epcHyBcFqn3VSX1gYDT4nsnnQvaC5SePs2Wg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "4.25.0"
     "@typescript-eslint/parser" "4.25.0"
