@@ -3,7 +3,6 @@ import type { Linter } from 'eslint';
 import { ERROR, WARN } from './consts';
 
 const sheker = 1;
-const t = 1;
 
 const typeChecking: Linter.Config = {
   parserOptions: { ecmaFeatures: { impliedStrict: true, globalReturn: true }, ecmaVersion: 6 },
