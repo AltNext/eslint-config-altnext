@@ -7,7 +7,6 @@ const base: Linter.Config = {
   parserOptions: { ecmaFeatures: { impliedStrict: true, globalReturn: true }, ecmaVersion: 6 },
   env: { browser: true, node: true },
   globals: { console: true },
-  reportUnusedDisableDirectives: true,
   plugins: ['import'],
   settings: {
     react: { version: '17.0.2' },
