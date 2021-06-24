@@ -286,6 +286,7 @@ const base: Linter.Config = {
     'unicorn/no-useless-undefined': OFF,
     'unicorn/prefer-add-event-listener': WARN,
     'unicorn/prefer-negative-index': WARN,
+    'unicorn/prefer-node-protocol': OFF,
     'unicorn/prefer-number-properties': OFF,
     'unicorn/prefer-optional-catch-binding': WARN,
     'unicorn/prefer-query-selector': WARN,
