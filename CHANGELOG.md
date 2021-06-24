@@ -1,5 +1,13 @@
 # eslint-config-altnext
 
+## 1.0.3
+
+### Patch Changes
+
+- [#20](https://github.com/AltNext/eslint-config-altnext/pull/20) [`4261f0a`](https://github.com/AltNext/eslint-config-altnext/commit/4261f0a1b7a9249cf92e4bd900fd5afcbfd805b8) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: turn off unicorn/prefer-module
+
+* [#22](https://github.com/AltNext/eslint-config-altnext/pull/22) [`64165bf`](https://github.com/AltNext/eslint-config-altnext/commit/64165bf34b316e69f57c468ee21aa666eb7ee71f) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: turn off unicorn/prefer-array-flat
+
 ## 1.0.2
 
 ### Patch Changes
