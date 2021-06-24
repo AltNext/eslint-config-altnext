@@ -285,6 +285,7 @@ const base: Linter.Config = {
     'unicorn/no-unreadable-array-destructuring': OFF,
     'unicorn/no-useless-undefined': OFF,
     'unicorn/prefer-add-event-listener': WARN,
+    'unicorn/prefer-module': OFF,
     'unicorn/prefer-negative-index': WARN,
     'unicorn/prefer-node-protocol': OFF,
     'unicorn/prefer-number-properties': OFF,
