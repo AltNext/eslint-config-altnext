@@ -1,5 +1,11 @@
 # eslint-config-altnext
 
+## 1.0.2
+
+### Patch Changes
+
+- [#15](https://github.com/AltNext/eslint-config-altnext/pull/15) [`1b659cf`](https://github.com/AltNext/eslint-config-altnext/commit/1b659cf82951d9dc0d516db49b9496b84d611196) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: turn off unicorn/prefer-node-protocol
+
 ## 1.0.1
 
 ### Patch Changes
