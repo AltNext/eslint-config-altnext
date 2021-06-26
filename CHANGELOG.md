@@ -1,5 +1,11 @@
 # eslint-config-altnext
 
+## 1.1.0
+
+### Minor Changes
+
+- [#23](https://github.com/AltNext/eslint-config-altnext/pull/23) [`e317eae`](https://github.com/AltNext/eslint-config-altnext/commit/e317eaeff0126b809f68e64000ae8c41745ddf4b) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: remove lint-staged
+
 ## 1.0.3
 
 ### Patch Changes
