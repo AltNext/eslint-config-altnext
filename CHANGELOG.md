@@ -1,5 +1,11 @@
 # eslint-config-altnext
 
+## 1.1.2
+
+### Patch Changes
+
+- [#32](https://github.com/AltNext/eslint-config-altnext/pull/32) [`dfa78e1`](https://github.com/AltNext/eslint-config-altnext/commit/dfa78e1e09a9aaff3f20bb491c4c257c7c981dc0) Thanks [@roikoren755](https://github.com/roikoren755)! - fix: put rules in right configuration
+
 ## 1.1.1
 
 ### Patch Changes
