@@ -1396,10 +1396,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-altnext@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-altnext/-/eslint-config-altnext-1.0.3.tgz#8e6174846a94d2c2a52fefdbbea98ea190be8c2d"
-  integrity sha512-2YSL7Da8wHXZad2aUkbSg2uv93mipnAIlJN3eA/bNfWrSdE7TkhIlvauQ/5oCdM7x51fXyGpK8gk3Za6m2Os5w==
+eslint-config-altnext@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-altnext/-/eslint-config-altnext-1.1.0.tgz#0567074d19874b706a58bea4e623acfda4060d4a"
+  integrity sha512-NaXU3oUeaM/z58aXzCMdbBA2ffNxEe8OwojOV4S1dXYlNXCxjq5w7Uuclnc2gvBya0zabPfd+2GJSLInADaEtw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "4.28.0"
     "@typescript-eslint/parser" "4.28.0"
@@ -1417,8 +1417,7 @@ eslint-config-altnext@1.0.3:
     eslint-plugin-react "7.24.0"
     eslint-plugin-react-hooks "4.2.0"
     eslint-plugin-unicorn "33.0.1"
-    lint-staged "11.0.0"
-    prettier "2.3.1"
+    prettier "2.3.2"
 
 eslint-config-prettier@8.3.0:
   version "8.3.0"
@@ -2410,7 +2409,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@11.0.0, lint-staged@^11.0.0:
+lint-staged@^11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-11.0.0.tgz#24d0a95aa316ba28e257f5c4613369a75a10c712"
   integrity sha512-3rsRIoyaE8IphSUtO1RVTFl1e0SLBtxxUOPBtHxQgBHS5/i6nqvjcUfNioMa4BU9yGnPzbO+xkfLtXtxBpCzjw==
@@ -3022,11 +3021,6 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
-
-prettier@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
-  integrity sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==
 
 prettier@2.3.2:
   version "2.3.2"
