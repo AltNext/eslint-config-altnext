@@ -1,5 +1,13 @@
 # eslint-config-altnext
 
+## 1.1.1
+
+### Patch Changes
+
+- [#30](https://github.com/AltNext/eslint-config-altnext/pull/30) [`1cfc7a3`](https://github.com/AltNext/eslint-config-altnext/commit/1cfc7a30e5b57778970ca5b29c7daef23bcfc05a) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: turn off `import/no-default-export` in `jest.config.ts`
+
+* [#30](https://github.com/AltNext/eslint-config-altnext/pull/30) [`1cfc7a3`](https://github.com/AltNext/eslint-config-altnext/commit/1cfc7a30e5b57778970ca5b29c7daef23bcfc05a) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: turn off `@typescript-eslint/no-unsafe-assignment` in tests
+
 ## 1.1.0
 
 ### Minor Changes
