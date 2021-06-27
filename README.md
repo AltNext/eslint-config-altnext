@@ -4,7 +4,7 @@ following Altnext's styleguide.
 
 ### Installation
 
-Run `npm i -D eslint-config-altnext` (or `yarn add -D eslint-config-altnext`) to add this package to your dependencies.
+Run `npm i -D eslint-config-altnext` (or `yarn add -D eslint-config-altnext`) to add this package to your project's `devDependencies`.
 
 We bundle everything necessary to run [`eslint`](https://github.com/eslint/eslint),
 including `eslint` itself.
@@ -34,10 +34,19 @@ module.exports = {
 };
 ```
 
+### Prettier
+
+We also bundle Altnext's [`prettier`](https://github.com/prettier/prettier) configuration in this package.
+To use it, simply set your project's `.pretterrc.js` file to the following:
+
+```javascript
+module.exports = require('eslint-config-altnext/.prettierrc');
+```
+
 ### Plugins
 
 We use a wide variety of plugins and other packages,
-all of whom are bundles as dependencies of this package.
+all of whom are bundled as dependencies of this package.
 
 Special thanks to the maintainers and contributors of these packages.
 
@@ -57,5 +66,4 @@ The following are the various packages and plugins included when adding this pac
 * [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react)
 * [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)
 * [`eslint-plugin-unicorn`](https://github.com/sindresorhus/eslint-plugin-unicorn)
-* [`lint-staged`](https://github.com/okonet/lint-staged)
 * [`prettier`](https://github.com/prettier/prettier)
