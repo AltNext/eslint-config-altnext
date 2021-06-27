@@ -124,25 +124,11 @@ const base: Linter.Config = {
     '@typescript-eslint/consistent-type-definitions': ERROR,
     '@typescript-eslint/consistent-type-imports': ERROR,
     '@typescript-eslint/class-literal-property-style': ERROR,
-    '@typescript-eslint/dot-notation': ERROR,
     '@typescript-eslint/default-param-last': ERROR,
     '@typescript-eslint/explicit-function-return-type': [ERROR, { allowExpressions: true }],
     '@typescript-eslint/explicit-member-accessibility': [ERROR, { accessibility: 'no-public' }],
     '@typescript-eslint/interface-name-prefix': OFF,
     '@typescript-eslint/method-signature-style': [ERROR, 'method'],
-    '@typescript-eslint/naming-convention': [
-      ERROR,
-      {
-        selector: 'property',
-        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-        leadingUnderscore: 'allow',
-        filter: { regex: '^process\\.env\\.[A-Z][A-Z_]*$', match: false },
-      },
-      { selector: 'variable', format: ['camelCase', 'UPPER_CASE', 'PascalCase'], leadingUnderscore: 'allow' },
-      { selector: 'typeLike', format: ['PascalCase'] },
-      { selector: 'typeAlias', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: false } },
-      { selector: 'interface', format: ['PascalCase'], prefix: ['I'] },
-    ],
     '@typescript-eslint/no-empty-function': WARN,
     '@typescript-eslint/no-empty-interface': [WARN, { allowSingleExtends: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ERROR,
@@ -152,12 +138,6 @@ const base: Linter.Config = {
     '@typescript-eslint/no-parameter-properties': ERROR,
     '@typescript-eslint/no-unused-expressions': [ERROR, { allowTernary: true }],
     '@typescript-eslint/no-unused-vars': [ERROR, { ignoreRestSiblings: true }],
-
-    '@typescript-eslint/no-unsafe-assignment': WARN,
-    '@typescript-eslint/no-unsafe-call': WARN,
-    '@typescript-eslint/no-unsafe-member-access': WARN,
-    '@typescript-eslint/no-unsafe-return': WARN,
-
     '@typescript-eslint/no-use-before-define': WARN,
     '@typescript-eslint/no-useless-constructor': ERROR,
     '@typescript-eslint/no-var-requires': WARN,
@@ -166,7 +146,6 @@ const base: Linter.Config = {
     '@typescript-eslint/prefer-function-type': ERROR,
     '@typescript-eslint/prefer-optional-chain': WARN,
     '@typescript-eslint/prefer-ts-expect-error': ERROR,
-    '@typescript-eslint/require-await': OFF,
     '@typescript-eslint/sort-type-union-intersection-members': ERROR,
     '@typescript-eslint/unified-signatures': ERROR,
 
@@ -314,13 +293,7 @@ const base: Linter.Config = {
     { files: ['./**/*.story.tsx'], rules: { 'no-console': OFF } },
     {
       files: ['./**/*.spec.ts'],
-      rules: {
-        '@typescript-eslint/no-unsafe-assignment': OFF,
-        '@typescript-eslint/no-unsafe-return': OFF,
-        '@typescript-eslint/no-var-requires': OFF,
-        '@typescript-eslint/unbound-method': OFF,
-        'unicorn/no-useless-undefined': OFF,
-      },
+      rules: { '@typescript-eslint/no-var-requires': OFF, 'unicorn/no-useless-undefined': OFF },
     },
   ],
 };
