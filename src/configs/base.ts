@@ -312,8 +312,9 @@ const base: Linter.Config = {
     {
       files: ['./**/*.spec.ts'],
       rules: {
-        '@typescript-eslint/no-var-requires': OFF,
+        '@typescript-eslint/no-unsafe-assignment': OFF,
         '@typescript-eslint/no-unsafe-return': OFF,
+        '@typescript-eslint/no-var-requires': OFF,
         '@typescript-eslint/unbound-method': OFF,
         'unicorn/no-useless-undefined': OFF,
       },
