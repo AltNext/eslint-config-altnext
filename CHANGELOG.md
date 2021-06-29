@@ -1,5 +1,11 @@
 # eslint-config-altnext
 
+## 1.1.3
+
+### Patch Changes
+
+- [#34](https://github.com/AltNext/eslint-config-altnext/pull/34) [`c7fe505`](https://github.com/AltNext/eslint-config-altnext/commit/c7fe505e2b6046acad4ca58b821a82d160f9969a) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependencies
+
 ## 1.1.2
 
 ### Patch Changes
