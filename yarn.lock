@@ -1012,9 +1012,9 @@ ci-info@^2.0.0:
   resolved "https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
 
-ci-info@^3.1.1:
+ci-info@^3.1.1, ci-info@^3.2.0:
   version "3.2.0"
-  resolved "https://registry.npmjs.org/ci-info/-/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
   integrity sha512-dVqRX7fLUm8J6FgHJ418XuIgDLZDkYcDFTeL6TA2gt5WlIZUQrrH6EZrNClwT/H0FateUsZkGIOPRrLbP+PR9A==
 
 clean-regexp@^1.0.0:
@@ -1573,6 +1573,24 @@ eslint-plugin-unicorn@33.0.1:
     eslint-template-visitor "^2.3.2"
     eslint-utils "^3.0.0"
     import-modules "^2.1.0"
+    is-builtin-module "^3.1.0"
+    lodash "^4.17.21"
+    pluralize "^8.0.0"
+    read-pkg-up "^7.0.1"
+    regexp-tree "^0.1.23"
+    reserved-words "^0.1.2"
+    safe-regex "^2.1.1"
+    semver "^7.3.5"
+
+eslint-plugin-unicorn@34.0.0:
+  version "34.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-34.0.0.tgz#59b5319c69369186ead38c5bc1f675414b06678c"
+  integrity sha512-O2S5Y823IymGWjFG1sa+F3zZYa8F9NukNT0qZfsAnLciY9721/kKxAsfSomlFR3o+8OfohytHdVVKGb3sNy7dA==
+  dependencies:
+    ci-info "^3.2.0"
+    clean-regexp "^1.0.0"
+    eslint-template-visitor "^2.3.2"
+    eslint-utils "^3.0.0"
     is-builtin-module "^3.1.0"
     lodash "^4.17.21"
     pluralize "^8.0.0"
