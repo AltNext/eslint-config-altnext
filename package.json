@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-altnext",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/altnext/eslint-config-altnext.git"
