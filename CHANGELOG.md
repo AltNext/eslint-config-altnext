@@ -1,5 +1,11 @@
 # eslint-config-altnext
 
+## 1.1.4
+
+### Patch Changes
+
+- [#39](https://github.com/AltNext/eslint-config-altnext/pull/39) [`f5b20f9`](https://github.com/AltNext/eslint-config-altnext/commit/f5b20f9d50df182d8ca6a1fffeb2b5b991bc943e) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-unicorn to v34.0.1
+
 ## 1.1.3
 
 ### Patch Changes
