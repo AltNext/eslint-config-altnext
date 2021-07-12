@@ -23,7 +23,7 @@ const base: Linter.Config = {
     'plugin:jest/recommended',
     'plugin:jest/style',
     'plugin:jest-formatting/strict',
-    'plugin:jest-playwright/recommended',
+    'plugin:playwright/jest-playwright',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
