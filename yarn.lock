@@ -1580,6 +1580,13 @@ eslint-plugin-jest-playwright@0.3.3:
   dependencies:
     eslint-plugin-jest "^24.3.6"
 
+eslint-plugin-jest-playwright@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-playwright/-/eslint-plugin-jest-playwright-0.4.1.tgz#5cae26348b9713b2d41d7e61e7d964aed084c942"
+  integrity sha512-sQ+grZ57ExRd5Sx8gFZ9GvE/BEFYMzc5Gu35o1KuY/ofhpqnxfwEHyV5vUIngyRSSDRBEDdZMdk+XjruiOnzHw==
+  dependencies:
+    eslint-plugin-playwright "^0.4.0"
+
 eslint-plugin-jest@24.3.6, eslint-plugin-jest@^24.3.6:
   version "24.3.6"
   resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-24.3.6.tgz#5f0ca019183c3188c5ad3af8e80b41de6c8e9173"
@@ -1615,6 +1622,11 @@ eslint-plugin-node@11.1.0:
     minimatch "^3.0.4"
     resolve "^1.10.1"
     semver "^6.1.0"
+
+eslint-plugin-playwright@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-playwright/-/eslint-plugin-playwright-0.4.0.tgz#0e8dc9805a7e33a6596621a2193b32f13639c325"
+  integrity sha512-hGI5AETIpgQaNCm9oBAIEZYunuZ6M4rgZYVKrheuOaOcVfmW7z3muZnk0G6gOFHAux1t2fJx+10nWP868sw5TA==
 
 eslint-plugin-prettier@3.4.0:
   version "3.4.0"
