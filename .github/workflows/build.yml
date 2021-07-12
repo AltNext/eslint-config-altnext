@@ -34,7 +34,7 @@ jobs:
       - name: Install
         run: yarn install --frozen-lockfile
       - name: Deduplicate yarn.lock
-        run: yarn deduplicate -s fewer --list --fail
+        run: yarn deduplicate --list --fail
       - name: Lint
         run: yarn lint
       - name: Type
