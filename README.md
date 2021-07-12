@@ -1,4 +1,28 @@
 # eslint-config-altnext
+
+[![Test Status](https://github.com/altnext/eslint-config-altnext/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/AltNext/eslint-config-altnext/actions/workflows/test.yml?query=branch%3Amain)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=bugs)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=code_smells)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=security_rating)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=sqale_index)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
+
+[![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/altnext/eslint-config-altnext)](https://app.snyk.io/org/altnext/project/46fd7677-38c9-4e4a-a374-664f722e4427)
+
+[![npm](https://img.shields.io/npm/v/eslint-config-altnext)](https://www.npmjs.com/package/eslint-config-altnext)
+[![NPM](https://img.shields.io/npm/l/eslint-config-altnext)](https://www.npmjs.com/package/eslint-config-altnext)
+[![npm](https://img.shields.io/npm/dm/eslint-config-altnext)](https://www.npmjs.com/package/eslint-config-altnext)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/eslint-config-altnext)](https://www.npmjs.com/package/eslint-config-altnext)
+
+[![GitHub issues](https://img.shields.io/github/issues-raw/altnext/eslint-config-altnext)](https://www.github.com/altnext/eslint-config-altnext)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/altnext/eslint-config-altnext)](https://www.github.com/altnext/eslint-config-altnext)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/altnext/eslint-config-altnext)](https://www.github.com/altnext/eslint-config-altnext)
+[![Lines of code](https://img.shields.io/tokei/lines/github/altnext/eslint-config-altnext)](https://www.github.com/altnext/eslint-config-altnext)
+[![GitHub top language](https://img.shields.io/github/languages/top/altnext/eslint-config-altnext)](https://www.github.com/altnext/eslint-config-altnext)
+
 A highly opinionated configuration for ESLint and Prettier,
 following Altnext's styleguide.
 
