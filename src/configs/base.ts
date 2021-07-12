@@ -278,6 +278,7 @@ const base: Linter.Config = {
     'unicorn/prevent-abbreviations': OFF,
   },
   overrides: [
+    { files: ['.eslintrc.js', '.prettierrc.js', 'commitlint.config.js'], rules: { 'no-undef': OFF } },
     {
       files: ['./**/*.js'],
       rules: {
