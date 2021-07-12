@@ -1,7 +1,6 @@
 # eslint-config-altnext
 
-[![Test Status](https://github.com/altnext/eslint-config-altnext/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/AltNext/eslint-config-altnext/actions/workflows/test.yml?query=branch%3Amain)
-[![Coverage Status](https://coveralls.io/repos/github/AltNext/eslint-config-altnext/badge.svg?branch=main)](https://coveralls.io/github/AltNext/eslint-config-altnext?branch=main)
+[![Test Status](https://github.com/altnext/eslint-config-altnext/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/AltNext/eslint-config-altnext/actions/workflows/test.yml?query=branch%3Amain)
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=bugs)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=AltNext_eslint-config-altnext&metric=code_smells)](https://sonarcloud.io/dashboard?id=AltNext_eslint-config-altnext)
