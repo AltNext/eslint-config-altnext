@@ -1,5 +1,23 @@
 # eslint-config-altnext
 
+## 1.1.6
+
+### Patch Changes
+
+- [#61](https://github.com/AltNext/eslint-config-altnext/pull/61) [`c8edf14`](https://github.com/AltNext/eslint-config-altnext/commit/c8edf14c142523f45950f0249f2cb7ca370bb39e) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: update renovate configuration
+
+* [#55](https://github.com/AltNext/eslint-config-altnext/pull/55) [`c0641cb`](https://github.com/AltNext/eslint-config-altnext/commit/c0641cbe387ed4c281a9e7a1cfd11aee0b93ce3c) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.1.5
+
+- [#63](https://github.com/AltNext/eslint-config-altnext/pull/63) [`65c963c`](https://github.com/AltNext/eslint-config-altnext/commit/65c963c6784050ac93b92cd8eed060ccf878eb7c) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: force renovate to use semantic commits again
+
+* [#58](https://github.com/AltNext/eslint-config-altnext/pull/58) [`9c1351b`](https://github.com/AltNext/eslint-config-altnext/commit/9c1351b821b68a4e6a0d2f338b792b1633c469a0) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update typescript-eslint monorepo to v4.28.3
+
+- [#60](https://github.com/AltNext/eslint-config-altnext/pull/60) [`a19c637`](https://github.com/AltNext/eslint-config-altnext/commit/a19c6370acda254135dda052f2afb2983f189206) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.0.1
+
+* [#59](https://github.com/AltNext/eslint-config-altnext/pull/59) [`ae58ee4`](https://github.com/AltNext/eslint-config-altnext/commit/ae58ee4a2b6229ca7227658ce4c19cc85ffa22b8) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/eslint to v7.28.0
+
+- [#56](https://github.com/AltNext/eslint-config-altnext/pull/56) [`e0185b7`](https://github.com/AltNext/eslint-config-altnext/commit/e0185b74c5cddf266ca4cc44856ba9f30e8402b8) Thanks [@roikoren755](https://github.com/roikoren755)! - docs: update README.md
+
 ## 1.1.5
 
 ### Patch Changes
