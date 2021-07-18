@@ -1,5 +1,13 @@
 # eslint-config-altnext
 
+## 1.1.7
+
+### Patch Changes
+
+- [#64](https://github.com/AltNext/eslint-config-altnext/pull/64) [`ff01583`](https://github.com/AltNext/eslint-config-altnext/commit/ff01583ce19f1c484bbe3d05c2997d8c9dc29e05) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.1.6
+
+* [#67](https://github.com/AltNext/eslint-config-altnext/pull/67) [`86a0582`](https://github.com/AltNext/eslint-config-altnext/commit/86a05826d61e6798511febb5ddc59c1dc73327c4) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: add `babel.config.js` to `no-undef` exception list
+
 ## 1.1.6
 
 ### Patch Changes
