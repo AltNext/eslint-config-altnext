@@ -25,6 +25,9 @@
     "release": "changeset publish",
     "type": "tsc --noEmit --noImplicitAny"
   },
+  "resolutions": {
+    "eslint": "7.31.0"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.28.3",
     "@typescript-eslint/parser": "4.28.3",
