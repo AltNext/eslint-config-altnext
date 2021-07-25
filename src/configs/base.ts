@@ -176,6 +176,7 @@ const base: Linter.Config = {
       },
     ],
     'jest/lowercase-name': [WARN, { allowedPrefixes: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'] }],
+    'jest/max-nested-describe': WARN,
     'jest/no-deprecated-functions': WARN,
     'jest/no-duplicate-hooks': WARN,
     'jest/no-expect-resolves': WARN,
