@@ -28,7 +28,8 @@
   "resolutions": {
     "@typescript-eslint/eslint-plugin": "4.28.4",
     "@typescript-eslint/parser": "4.28.4",
-    "eslint": "7.31.0"
+    "eslint": "7.31.0",
+    "eslint-plugin-jest": "24.4.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.28.4",
@@ -38,7 +39,7 @@
     "eslint-import-resolver-alias": "1.1.2",
     "eslint-import-resolver-typescript": "2.4.0",
     "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-jest": "24.3.6",
+    "eslint-plugin-jest": "24.4.0",
     "eslint-plugin-jest-formatting": "3.0.0",
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-node": "11.1.0",
