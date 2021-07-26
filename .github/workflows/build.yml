@@ -42,9 +42,15 @@ jobs:
       - name: Version
         if: ${{ matrix.node-version == 14 }}
         run: yarn changeset:version alpha
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHPR_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build and publish
         if: ${{ matrix.node-version == 14 }}
         run: yarn release --tag alpha
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHPR_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build
         if: ${{ matrix.node-version != 14 }}
         run: yarn build
