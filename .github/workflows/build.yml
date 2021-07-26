@@ -39,5 +39,7 @@ jobs:
         run: yarn lint
       - name: Type
         run: yarn type
-      - name: Build
-        run: yarn build
+      - name: Version
+        run: yarn changeset:version alpha
+      - name: Build and publish
+        run: yarn release --tag alpha

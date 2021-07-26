@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "changeset:version": "changeset version --snapshot",
     "clean": "tsc --build --clean",
     "deduplicate": "yarn-deduplicate -s fewer",
     "lint": "eslint --ext .ts . --cache",
