@@ -20,6 +20,7 @@
     "clean": "tsc --build --clean",
     "deduplicate": "yarn-deduplicate -s fewer",
     "lint": "eslint --ext .ts . --cache",
+    "postinstall": "yarn deduplicate",
     "prepare": "husky install",
     "prerelease": "yarn build",
     "release": "changeset publish",
@@ -29,7 +30,8 @@
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
     "eslint": "7.32.0",
-    "eslint-plugin-jest": "24.4.0"
+    "eslint-plugin-jest": "24.4.0",
+    "eslint-plugin-unicorn": "35.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.29.0",
