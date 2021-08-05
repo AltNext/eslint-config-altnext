@@ -1,5 +1,11 @@
 # eslint-config-altnext
 
+## 1.2.1
+
+### Patch Changes
+
+- [#81](https://github.com/AltNext/eslint-config-altnext/pull/81) [`1cf4d64`](https://github.com/AltNext/eslint-config-altnext/commit/1cf4d6493e055742d01e0469253b31154a725e53) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: remove stupid script
+
 ## 1.2.0
 
 ### Minor Changes
