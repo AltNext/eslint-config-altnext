@@ -270,6 +270,7 @@ const base: Linter.Config = {
     'unicorn/prefer-negative-index': WARN,
     'unicorn/prefer-node-protocol': OFF,
     'unicorn/prefer-number-properties': OFF,
+    'unicorn/prefer-object-from-entries': OFF,
     'unicorn/prefer-optional-catch-binding': WARN,
     'unicorn/prefer-query-selector': WARN,
     'unicorn/prefer-set-has': WARN,
