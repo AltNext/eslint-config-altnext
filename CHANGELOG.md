@@ -1,5 +1,17 @@
 # eslint-config-altnext
 
+## 1.2.2
+
+### Patch Changes
+
+- [#87](https://github.com/AltNext/eslint-config-altnext/pull/87) [`6167719`](https://github.com/AltNext/eslint-config-altnext/commit/6167719c59a9690767c39941f4efb37a0b0080a4) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: disable unicorn/prefer-object-from-entries
+
+* [#80](https://github.com/AltNext/eslint-config-altnext/pull/80) [`53ef246`](https://github.com/AltNext/eslint-config-altnext/commit/53ef2463ef425ad3890f942fb3d1008fd42b7b99) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.2.1
+
+- [#83](https://github.com/AltNext/eslint-config-altnext/pull/83) [`6a0877f`](https://github.com/AltNext/eslint-config-altnext/commit/6a0877fcdc48066a7e9355ccd7ab598fb78abfcd) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.1.2
+
+* [#85](https://github.com/AltNext/eslint-config-altnext/pull/85) [`d2577d6`](https://github.com/AltNext/eslint-config-altnext/commit/d2577d617c86b15a191f68b2a694de0aa37303fa) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-import to v2.24.0
+
 ## 1.2.1
 
 ### Patch Changes
