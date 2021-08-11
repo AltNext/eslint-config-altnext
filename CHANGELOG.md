@@ -1,5 +1,15 @@
 # eslint-config-altnext
 
+## 1.2.3
+
+### Patch Changes
+
+- [#91](https://github.com/AltNext/eslint-config-altnext/pull/91) [`9fac0fd`](https://github.com/AltNext/eslint-config-altnext/commit/9fac0fd5da08af13c2e32602382cf69663e0d558) Thanks [@roikoren755](https://github.com/roikoren755)! - fix: allow nested `jest.config.ts`
+
+* [#88](https://github.com/AltNext/eslint-config-altnext/pull/88) [`7ea9bbb`](https://github.com/AltNext/eslint-config-altnext/commit/7ea9bbb9f0e7db024072e7c82a9910ebe603c8e0) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.2.2
+
+- [#90](https://github.com/AltNext/eslint-config-altnext/pull/90) [`adf0a17`](https://github.com/AltNext/eslint-config-altnext/commit/adf0a17edb9c170b6bcfb682715b4a54a3098e21) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v4.29.1
+
 ## 1.2.2
 
 ### Patch Changes
