@@ -665,7 +665,7 @@
   resolved "https://registry.npmjs.org/@types/semver/-/semver-6.2.2.tgz#5c27df09ca39e3c9beb4fae6b95f4d71426df0a9"
   integrity sha512-RxAwYt4rGwK5GyoRwuP0jT6ZHAVTdz2EqgsHmX0PYNjGsko+OeT4WFXXTs/lM3teJUJodM+SNtAL5/pXIJ61IQ==
 
-"@typescript-eslint/eslint-plugin@4.29.0", "@typescript-eslint/eslint-plugin@4.29.1":
+"@typescript-eslint/eslint-plugin@4.29.1":
   version "4.29.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.29.1.tgz#808d206e2278e809292b5de752a91105da85860b"
   integrity sha512-AHqIU+SqZZgBEiWOrtN94ldR3ZUABV5dUG94j8Nms9rQnHFc8fvDOue/58K4CFz6r8OtDDc35Pw9NQPWo0Ayrw==
@@ -690,7 +690,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@4.29.0", "@typescript-eslint/parser@4.29.1":
+"@typescript-eslint/parser@4.29.1":
   version "4.29.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.29.1.tgz#17dfbb45c9032ffa0fe15881d20fbc2a4bdeb02d"
   integrity sha512-3fL5iN20hzX3Q4OkG7QEPFjZV2qsVGiDhEwwh+EkmE/w7oteiOvUNzmpu5eSwGJX/anCryONltJ3WDmAzAoCMg==
@@ -1411,13 +1411,13 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-altnext@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-altnext/-/eslint-config-altnext-1.2.2.tgz#10cb01277f3ef432caf707c9f5ce64d39f8ea3d4"
-  integrity sha512-ysVrWrl8eluIf1ZiQIYqCQM95BJreiQYAt+CMb5MAtobeKpS1VCdiWjghFEf+sDvG1fOjQwGhos3m5lDiEmiGQ==
+eslint-config-altnext@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-altnext/-/eslint-config-altnext-1.2.3.tgz#8a6bf61abebe82ae0601522eb67d3a14b45492f4"
+  integrity sha512-0xD0qg4HR27kABHxneIH3SeEhUpfKl7yBCjr1uxjeyAA9/ZSLYTsUsx7tXYVyxM2ad+6bGEhUmfxrMf+KYeXNQ==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "4.29.0"
-    "@typescript-eslint/parser" "4.29.0"
+    "@typescript-eslint/eslint-plugin" "4.29.1"
+    "@typescript-eslint/parser" "4.29.1"
     eslint "7.32.0"
     eslint-config-prettier "8.3.0"
     eslint-import-resolver-alias "1.1.2"
