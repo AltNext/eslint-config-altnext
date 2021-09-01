@@ -1,5 +1,35 @@
 # eslint-config-altnext
 
+## 1.2.4
+
+### Patch Changes
+
+- [#92](https://github.com/AltNext/eslint-config-altnext/pull/92) [`2edc35b`](https://github.com/AltNext/eslint-config-altnext/commit/2edc35b9b28b9d64ae4d2e3c8d74c20154cd068e) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.2.3
+
+* [#103](https://github.com/AltNext/eslint-config-altnext/pull/103) [`ae85c6f`](https://github.com/AltNext/eslint-config-altnext/commit/ae85c6fac49dd3d0bd5794f910ab2ce30dd57ef4) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @changesets/changelog-github to v0.4.1
+
+- [#96](https://github.com/AltNext/eslint-config-altnext/pull/96) [`401d2c5`](https://github.com/AltNext/eslint-config-altnext/commit/401d2c56d53b58a716994da28d8d9345748d4444) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-import to v2.24.2
+
+* [#101](https://github.com/AltNext/eslint-config-altnext/pull/101) [`8fb4e36`](https://github.com/AltNext/eslint-config-altnext/commit/8fb4e3694fbafc6801214c9e279bae51d19b7771) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-react to v7.25.1
+
+- [#100](https://github.com/AltNext/eslint-config-altnext/pull/100) [`0184712`](https://github.com/AltNext/eslint-config-altnext/commit/0184712c305be342c18d3b78ab77caea7579ce53) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v4.4.2
+
+* [#93](https://github.com/AltNext/eslint-config-altnext/pull/93) [`3e9642d`](https://github.com/AltNext/eslint-config-altnext/commit/3e9642d4d37931e68f3c3d63db466799b2b1db5c) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: make no-undef override catch nested files
+
+- [#104](https://github.com/AltNext/eslint-config-altnext/pull/104) [`7dfa640`](https://github.com/AltNext/eslint-config-altnext/commit/7dfa640890858c1df5a99315392f61bee92d8b58) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @changesets/cli to v2.17.0
+
+* [#98](https://github.com/AltNext/eslint-config-altnext/pull/98) [`e01b96d`](https://github.com/AltNext/eslint-config-altnext/commit/e01b96d8e7e3267388bb1ad4b537447461051603) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v4.30.0
+
+- [#93](https://github.com/AltNext/eslint-config-altnext/pull/93) [`3e9642d`](https://github.com/AltNext/eslint-config-altnext/commit/3e9642d4d37931e68f3c3d63db466799b2b1db5c) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: add `svgo.config.js` to no-undef override
+
+* [#99](https://github.com/AltNext/eslint-config-altnext/pull/99) [`fe1204f`](https://github.com/AltNext/eslint-config-altnext/commit/fe1204f1267e828ec90bd3b4fdd5153a597a2f97) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency husky to v7.0.2
+
+- [#97](https://github.com/AltNext/eslint-config-altnext/pull/97) [`67c94fe`](https://github.com/AltNext/eslint-config-altnext/commit/67c94fe4f39376b30e0f5078e87868b1da195084) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-prettier to v3.4.1
+
+* [#102](https://github.com/AltNext/eslint-config-altnext/pull/102) [`7c058fc`](https://github.com/AltNext/eslint-config-altnext/commit/7c058fc1007e495f8bd194e7f61f5d617e427e15) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-prettier to v4
+
+- [#95](https://github.com/AltNext/eslint-config-altnext/pull/95) [`43af727`](https://github.com/AltNext/eslint-config-altnext/commit/43af727045401a5bca2b4e545a47f8febbc085e7) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v4.29.2
+
 ## 1.2.3
 
 ### Patch Changes
