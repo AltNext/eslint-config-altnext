@@ -25,6 +25,7 @@ const base: Linter.Config = {
     'plugin:jest-formatting/strict',
     'plugin:playwright/jest-playwright',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:unicorn/recommended',
@@ -207,10 +208,9 @@ const base: Linter.Config = {
     'react/jsx-no-bind': ERROR,
     'react/jsx-no-script-url': ERROR,
     'react/jsx-no-target-blank': ERROR,
-    'react/jsx-no-useless-fragment': ERROR,
+    'react/jsx-no-useless-fragment': [ERROR, { allowExpressions: true }],
     'react/jsx-pascal-case': [ERROR, { ignore: ['DAB'] }],
     'react/jsx-sort-props': [ERROR, { shorthandLast: true, reservedFirst: true }],
-    'react/jsx-uses-react': OFF,
     'react/no-array-index-key': ERROR,
     'react/no-children-prop': ERROR,
     'react/no-danger': ERROR,
@@ -218,7 +218,6 @@ const base: Linter.Config = {
     'react/no-unescaped-entities': ERROR,
     'react/prefer-stateless-function': ERROR,
     'react/prop-types': OFF,
-    'react/react-in-jsx-scope': OFF,
 
     'import/extensions': [
       ERROR,
