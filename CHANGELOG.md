@@ -1,5 +1,15 @@
 # eslint-config-altnext
 
+## 1.2.5
+
+### Patch Changes
+
+- [#108](https://github.com/AltNext/eslint-config-altnext/pull/108) [`5b9adac`](https://github.com/AltNext/eslint-config-altnext/commit/5b9adac68995a0518f04a4016ea1ad16e97919d7) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency prettier to v2.4.0
+
+- [#105](https://github.com/AltNext/eslint-config-altnext/pull/105) [`e3ef33f`](https://github.com/AltNext/eslint-config-altnext/commit/e3ef33f2dd712b633a7c0914fa763c8e788656d2) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.2.4
+
+- [#107](https://github.com/AltNext/eslint-config-altnext/pull/107) [`f776aa3`](https://github.com/AltNext/eslint-config-altnext/commit/f776aa3c8b26080f426a2836a0e1c6db37355418) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v4.31.0
+
 ## 1.2.4
 
 ### Patch Changes
