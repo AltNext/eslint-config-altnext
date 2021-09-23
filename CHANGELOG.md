@@ -1,5 +1,27 @@
 # eslint-config-altnext
 
+## 1.2.6
+
+### Patch Changes
+
+- [#116](https://github.com/AltNext/eslint-config-altnext/pull/116) [`ab5c035`](https://github.com/AltNext/eslint-config-altnext/commit/ab5c0351395a01fc088b3d6359408c94a69f0494) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency prettier to v2.4.1
+
+- [#113](https://github.com/AltNext/eslint-config-altnext/pull/113) [`7bc06ec`](https://github.com/AltNext/eslint-config-altnext/commit/7bc06ec26fa7f40d7f0739559c355ed5900dd885) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-import-resolver-typescript to v2.5.0
+
+- [#118](https://github.com/AltNext/eslint-config-altnext/pull/118) [`229359e`](https://github.com/AltNext/eslint-config-altnext/commit/229359ea488401f3770733d712021b346165c7e3) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-jest to v24.4.2
+
+- [#110](https://github.com/AltNext/eslint-config-altnext/pull/110) [`de5fb3a`](https://github.com/AltNext/eslint-config-altnext/commit/de5fb3a572fb59ea711f76501dcc69a86289adb0) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v4.4.3
+
+- [#114](https://github.com/AltNext/eslint-config-altnext/pull/114) [`afbb997`](https://github.com/AltNext/eslint-config-altnext/commit/afbb99792520db27db9a3f40f6cc4b4d6ec254c3) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v4.31.2
+
+- [#111](https://github.com/AltNext/eslint-config-altnext/pull/111) [`9be40da`](https://github.com/AltNext/eslint-config-altnext/commit/9be40da482e92b78681e1cbe8d3450d1c7696275) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-unicorn to v36
+
+- [#117](https://github.com/AltNext/eslint-config-altnext/pull/117) [`ceb525e`](https://github.com/AltNext/eslint-config-altnext/commit/ceb525e5e4afd3c40e9d3dfd2519628c754ac841) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-react to v7.26.0
+
+- [#109](https://github.com/AltNext/eslint-config-altnext/pull/109) [`e59bc3d`](https://github.com/AltNext/eslint-config-altnext/commit/e59bc3d78e832397740aae38cac74765f7f2d1bd) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.2.5
+
+- [#115](https://github.com/AltNext/eslint-config-altnext/pull/115) [`e3ff890`](https://github.com/AltNext/eslint-config-altnext/commit/e3ff8903dae4564b59d7a5708461436e3157a1cf) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-playwright to v0.5.1
+
 ## 1.2.5
 
 ### Patch Changes
