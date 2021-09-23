@@ -665,7 +665,7 @@
   resolved "https://registry.npmjs.org/@types/semver/-/semver-6.2.2.tgz#5c27df09ca39e3c9beb4fae6b95f4d71426df0a9"
   integrity sha512-RxAwYt4rGwK5GyoRwuP0jT6ZHAVTdz2EqgsHmX0PYNjGsko+OeT4WFXXTs/lM3teJUJodM+SNtAL5/pXIJ61IQ==
 
-"@typescript-eslint/eslint-plugin@4.31.0", "@typescript-eslint/eslint-plugin@4.31.2":
+"@typescript-eslint/eslint-plugin@4.31.2":
   version "4.31.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.31.2.tgz#9f41efaee32cdab7ace94b15bd19b756dd099b0a"
   integrity sha512-w63SCQ4bIwWN/+3FxzpnWrDjQRXVEGiTt9tJTRptRXeFvdZc/wLiz3FQUwNQ2CVoRGI6KUWMNUj/pk63noUfcA==
@@ -690,7 +690,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@4.31.0", "@typescript-eslint/parser@4.31.2":
+"@typescript-eslint/parser@4.31.2":
   version "4.31.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.31.2.tgz#54aa75986e3302d91eff2bbbaa6ecfa8084e9c34"
   integrity sha512-EcdO0E7M/sv23S/rLvenHkb58l3XhuSZzKf6DBvLgHqOYdL6YFMYVtreGFWirxaU2mS1GYDby3Lyxco7X5+Vjw==
@@ -1413,28 +1413,28 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-altnext@1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-altnext/-/eslint-config-altnext-1.2.5.tgz#290cd043ba3417eb4b814f3bba04e624f761f122"
-  integrity sha512-WE4iKmq2okfykQRDGBcRDzHRZdqym3X9KSwsagCNFG9ZEZV8aEDwBXoeah82uzxwMqo66RYp23ZpwDWne61r/A==
+eslint-config-altnext@1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/eslint-config-altnext/-/eslint-config-altnext-1.2.6.tgz#b9dee7d4c59286699937f17b6035fc0f8fb55bae"
+  integrity sha512-ud/Ya6QbBLFdWl/9qd84g+Pw535zPbH7hBwgpF/5739EchW+Z66UYiMccYWJZTBiLOBK6+waBPL/OsSmcjt6Vg==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "4.31.0"
-    "@typescript-eslint/parser" "4.31.0"
+    "@typescript-eslint/eslint-plugin" "4.31.2"
+    "@typescript-eslint/parser" "4.31.2"
     eslint "7.32.0"
     eslint-config-prettier "8.3.0"
     eslint-import-resolver-alias "1.1.2"
-    eslint-import-resolver-typescript "2.4.0"
+    eslint-import-resolver-typescript "2.5.0"
     eslint-plugin-import "2.24.2"
-    eslint-plugin-jest "24.4.0"
+    eslint-plugin-jest "24.4.2"
     eslint-plugin-jest-formatting "3.0.0"
     eslint-plugin-jsx-a11y "6.4.1"
     eslint-plugin-node "11.1.0"
-    eslint-plugin-playwright "0.4.0"
+    eslint-plugin-playwright "0.5.1"
     eslint-plugin-prettier "4.0.0"
-    eslint-plugin-react "7.25.1"
+    eslint-plugin-react "7.26.0"
     eslint-plugin-react-hooks "4.2.0"
-    eslint-plugin-unicorn "35.0.0"
-    prettier "2.4.0"
+    eslint-plugin-unicorn "36.0.0"
+    prettier "2.4.1"
 
 eslint-config-prettier@8.3.0:
   version "8.3.0"
@@ -1454,7 +1454,7 @@ eslint-import-resolver-node@^0.3.6:
     debug "^3.2.7"
     resolve "^1.20.0"
 
-eslint-import-resolver-typescript@2.4.0, eslint-import-resolver-typescript@2.5.0:
+eslint-import-resolver-typescript@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.5.0.tgz#07661966b272d14ba97f597b51e1a588f9722f0a"
   integrity sha512-qZ6e5CFr+I7K4VVhQu3M/9xGv9/YmwsEXrsm3nimw8vWaVHRDrQRp26BgCypTxBp3vUp4o5aVEJRiy0F2DFddQ==
@@ -1507,7 +1507,7 @@ eslint-plugin-jest-formatting@3.0.0:
   resolved "https://registry.npmjs.org/eslint-plugin-jest-formatting/-/eslint-plugin-jest-formatting-3.0.0.tgz#a9f45c7d8eabfb72692ec3899998613a3e63f868"
   integrity sha512-XM1CHe1jX6j+t/NeppcVnm/1zgDAFqwiSLJEyLB7HDpcqBEGbbTFLSayCW2Q9y7VwcXrJbDAKRoO6vZ7jCmRFw==
 
-eslint-plugin-jest@24.4.0, eslint-plugin-jest@24.4.2:
+eslint-plugin-jest@24.4.2:
   version "24.4.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.4.2.tgz#9e8cf05ee6a0e3025e6149df2f36950abfa8d5bf"
   integrity sha512-jNMnqwX75z0RXRMXkxwb/+9ylKJYJLJ8nT8nBT0XFM5qx4IQGxP4edMawa0qGkSbHae0BDPBmi8I2QF0/F04XQ==
@@ -1543,7 +1543,7 @@ eslint-plugin-node@11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-playwright@0.4.0, eslint-plugin-playwright@0.5.1:
+eslint-plugin-playwright@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-playwright/-/eslint-plugin-playwright-0.5.1.tgz#dccb7080f6d7749176f7d77b9d062490c8e59e81"
   integrity sha512-ZdbVo7ajPR/wVsAsqzlb6zqR7qs2wywPqIltReEKSf054pn3vagigUzrJywMercwN/LnvPcZfGJvxcFjm/6Tyw==
@@ -1560,7 +1560,7 @@ eslint-plugin-react-hooks@4.2.0:
   resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
   integrity sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==
 
-eslint-plugin-react@7.25.1, eslint-plugin-react@7.26.0:
+eslint-plugin-react@7.26.0:
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.26.0.tgz#3ae019a35d542b98e5af9e2f96b89c232c74b55b"
   integrity sha512-dceliS5itjk4EZdQYtLMz6GulcsasguIs+VTXuiC7Q5IPIdGTkyfXVdmsQOqEhlD9MciofH4cMcT1bw1WWNxCQ==
@@ -1580,7 +1580,7 @@ eslint-plugin-react@7.25.1, eslint-plugin-react@7.26.0:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.5"
 
-eslint-plugin-unicorn@35.0.0, eslint-plugin-unicorn@36.0.0:
+eslint-plugin-unicorn@36.0.0:
   version "36.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-36.0.0.tgz#db50e1426839e401d33c5a279f49d4a5bbb640d8"
   integrity sha512-xxN2vSctGWnDW6aLElm/LKIwcrmk6mdiEcW55Uv5krcrVcIFSWMmEgc/hwpemYfZacKZ5npFERGNz4aThsp1AA==
@@ -3049,7 +3049,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@2.4.0, prettier@2.4.1, prettier@^1.19.1:
+prettier@2.4.1, prettier@^1.19.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
