@@ -1,5 +1,15 @@
 # eslint-config-altnext
 
+## 2.0.0
+
+### Major Changes
+
+- [#121](https://github.com/AltNext/eslint-config-altnext/pull/121) [`58706b3`](https://github.com/AltNext/eslint-config-altnext/commit/58706b37d0ff428293b83e542bb10b8ebf52a336) Thanks [@roikoren755](https://github.com/roikoren755)! - feat: make `altnext/type-checking` the default config
+
+### Patch Changes
+
+- [#119](https://github.com/AltNext/eslint-config-altnext/pull/119) [`51c6405`](https://github.com/AltNext/eslint-config-altnext/commit/51c6405c78c23dc414d460104351edddc6d9fb55) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v1.2.6
+
 ## 1.2.6
 
 ### Patch Changes
