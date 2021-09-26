@@ -1,3 +1,3 @@
 export = {
-  extends: ['./base.js'],
+  extends: ['./type-checking.js'],
 };
