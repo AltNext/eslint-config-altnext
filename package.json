@@ -19,7 +19,7 @@
     "build": "tsc",
     "clean": "tsc --build --clean",
     "deduplicate": "yarn-deduplicate -s fewer",
-    "lint": "eslint --ext .ts . --cache",
+    "lint": "eslint . --cache",
     "prepare": "husky install",
     "prerelease": "yarn build",
     "release": "changeset publish",
