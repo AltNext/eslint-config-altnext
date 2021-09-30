@@ -5,7 +5,6 @@ import type { Linter } from 'eslint';
 import { ERROR, OFF, WARN } from './consts';
 
 const parserOptions: ParserOptions = {
-  ecmaFeatures: { globalReturn: true },
   ecmaVersion: 6,
   jsxPragma: null,
 };
