@@ -1,12 +1,19 @@
 /* eslint-disable max-lines */
+import type { ParserOptions } from '@typescript-eslint/parser';
 import type { Linter } from 'eslint';
 
 import { ERROR, OFF, WARN } from './consts';
 
+const parserOptions: ParserOptions = {
+  ecmaVersion: 6,
+  jsxPragma: null,
+};
+
 const base: Linter.Config = {
-  parserOptions: { ecmaFeatures: { impliedStrict: true, globalReturn: true }, ecmaVersion: 6 },
+  parserOptions: parserOptions as Linter.ParserOptions,
   env: { browser: true, node: true },
   globals: { console: true },
+  reportUnusedDisableDirectives: true,
   plugins: ['import'],
   settings: {
     react: { version: '17.0.2' },
@@ -135,6 +142,7 @@ const base: Linter.Config = {
     '@typescript-eslint/no-extra-non-null-assertion': ERROR,
     '@typescript-eslint/no-extraneous-class': ERROR,
     '@typescript-eslint/no-invalid-void-type': ERROR,
+    '@typescript-eslint/no-non-null-asserted-nullish-coalescing': ERROR,
     '@typescript-eslint/no-non-null-asserted-optional-chain': ERROR,
     '@typescript-eslint/no-parameter-properties': ERROR,
     '@typescript-eslint/no-unused-expressions': [ERROR, { allowTernary: true }],
