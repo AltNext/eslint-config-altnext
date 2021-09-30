@@ -61,7 +61,7 @@ module.exports = {
 ### Prettier
 
 We also bundle Altnext's [`prettier`](https://github.com/prettier/prettier) configuration in this package.
-To use it, simply set your project's `.pretterrc.js` file to the following:
+To use it, simply set your project's `.prettierrc.js` file to the following:
 
 ```javascript
 module.exports = require('eslint-config-altnext/.prettierrc');
