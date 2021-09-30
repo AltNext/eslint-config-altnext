@@ -2,18 +2,23 @@ version: '0.2'
 language: en
 words:
   - altnext
+  - builtins
+  - camelcase
   - changesets
   - codeql
   - commitlint
+  - consts
   - coverallsapp
   - dmitry
   - dodzin
+  - eqeqeq
   - ghpr
   - gorillaz
   - huskyrc
   - lcov
   - lintable
   - necolas
+  - plusplus
   - prettierrc
   - roikoren
   - snyk

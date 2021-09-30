@@ -3,17 +3,6 @@ import type { Linter } from 'eslint';
 import { ERROR, OFF, WARN } from './consts';
 
 const typeChecking: Linter.Config = {
-  parserOptions: { ecmaFeatures: { impliedStrict: true, globalReturn: true }, ecmaVersion: 6 },
-  env: { browser: true, node: true },
-  globals: { console: true },
-  reportUnusedDisableDirectives: true,
-  plugins: ['import'],
-  settings: {
-    react: { version: '17.0.2' },
-    'import/parsers': { '@typescript-eslint/parser': ['.ts', '.tsx'] },
-    'import/resolver': { node: { extensions: ['.ts', '.jsx', '.js', '.tsx', '.json'] }, typescript: {} },
-    jest: { version: 27 },
-  },
   extends: ['plugin:@typescript-eslint/recommended-requiring-type-checking', './src/configs/base'],
   rules: {
     '@typescript-eslint/dot-notation': ERROR,
@@ -34,6 +23,7 @@ const typeChecking: Linter.Config = {
     '@typescript-eslint/no-confusing-void-expression': ERROR,
     '@typescript-eslint/no-floating-promises': WARN,
     '@typescript-eslint/no-implied-eval': ERROR,
+    '@typescript-eslint/no-meaningless-void-operator': [ERROR, { checkNever: false }],
     '@typescript-eslint/no-throw-literal': ERROR,
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': ERROR,
     '@typescript-eslint/no-unnecessary-type-arguments': ERROR,
@@ -44,6 +34,7 @@ const typeChecking: Linter.Config = {
     '@typescript-eslint/prefer-nullish-coalescing': WARN,
     '@typescript-eslint/prefer-readonly': ERROR,
     '@typescript-eslint/prefer-reduce-type-parameter': ERROR,
+    '@typescript-eslint/prefer-return-this-type': ERROR,
     '@typescript-eslint/require-array-sort-compare': ERROR,
     '@typescript-eslint/require-await': ERROR,
     '@typescript-eslint/restrict-template-expressions': WARN,
