@@ -162,7 +162,7 @@
 
 - [#45](https://github.com/AltNext/eslint-config-altnext/pull/45) [`fb6c8d4`](https://github.com/AltNext/eslint-config-altnext/commit/fb6c8d48b31e8eb03f3e465b0719fde5eaf8abb5) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v4.3.5
 
-* [#54](https://github.com/AltNext/eslint-config-altnext/pull/54) [`05bc548`](https://github.com/AltNext/eslint-config-altnext/commit/05bc548ab4d8cd0a25d5678ff45a654b0554162d) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: replace eslint-plugin-jest-playwright with eslint-plugin-playw…
+* [#54](https://github.com/AltNext/eslint-config-altnext/pull/54) [`05bc548`](https://github.com/AltNext/eslint-config-altnext/commit/05bc548ab4d8cd0a25d5678ff45a654b0554162d) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: replace eslint-plugin-jest-playwright with eslint-plugin-playwright, add yarn-deduplicate
 
 - [#47](https://github.com/AltNext/eslint-config-altnext/pull/47) [`76add80`](https://github.com/AltNext/eslint-config-altnext/commit/76add8070a89c32cadb96137bfc606502ad3407e) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint to v7.30.0
 

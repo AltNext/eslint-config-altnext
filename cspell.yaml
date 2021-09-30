@@ -1,0 +1,22 @@
+version: '0.2'
+language: en
+words:
+  - altnext
+  - changesets
+  - codeql
+  - commitlint
+  - coverallsapp
+  - dmitry
+  - dodzin
+  - ghpr
+  - gorillaz
+  - huskyrc
+  - lcov
+  - lintable
+  - necolas
+  - prettierrc
+  - roikoren
+  - snyk
+  - streetsidesoftware
+  - styleguide
+  - typedoc
