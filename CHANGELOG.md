@@ -1,5 +1,23 @@
 # eslint-config-altnext
 
+## 2.0.1
+
+### Patch Changes
+
+- [#125](https://github.com/AltNext/eslint-config-altnext/pull/125) [`2136bef`](https://github.com/AltNext/eslint-config-altnext/commit/2136befe378e02be089be7273b3955f264335174) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v4.32.0
+
+- [#131](https://github.com/AltNext/eslint-config-altnext/pull/131) [`c1cee8c`](https://github.com/AltNext/eslint-config-altnext/commit/c1cee8c74baa606f21b1e2446863564308b299cd) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: add cspell
+
+- [#127](https://github.com/AltNext/eslint-config-altnext/pull/127) [`0d7e665`](https://github.com/AltNext/eslint-config-altnext/commit/0d7e66594365289afa1205d055ea684988727d11) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-jest to v24.5.0
+
+- [#124](https://github.com/AltNext/eslint-config-altnext/pull/124) [`feeba29`](https://github.com/AltNext/eslint-config-altnext/commit/feeba2962d5faf456913093df7dc52232313ead0) Thanks [@roikoren755](https://github.com/roikoren755)! - docs: update README.md
+
+- [#126](https://github.com/AltNext/eslint-config-altnext/pull/126) [`9e18b3a`](https://github.com/AltNext/eslint-config-altnext/commit/9e18b3a0fda4f0fabf6a1b644271f739c7d9e409) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update commitlint monorepo to v13.2.0
+
+- [#123](https://github.com/AltNext/eslint-config-altnext/pull/123) [`565e05f`](https://github.com/AltNext/eslint-config-altnext/commit/565e05f8d8d5b90eb9801626c4615d6aa0d0ab85) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v2
+
+- [#128](https://github.com/AltNext/eslint-config-altnext/pull/128) [`d4f6e1a`](https://github.com/AltNext/eslint-config-altnext/commit/d4f6e1a2fc2ae679cdef9bd1815d2955fc80ae81) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-react to v7.26.1
+
 ## 2.0.0
 
 ### Major Changes
