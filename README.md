@@ -45,15 +45,15 @@ module.exports = {
 };
 ```
 
-We provide 2 configs, `altnext` (or `altnext/base`, which point to the same config),
-and `altnext/type-checking`, which includes the base config and adds rules that require type information to run.
+We provide 2 configs, `altnext` (or `altnext/type-checking`, which point to the same config),
+and `altnext/base`, which includes the base config, excluding rules that require type information to run.
 
-If you use `altnext/type-checking`,
+If you use `altnext` (or `altnext/type-checking`),
 you'll need to add a reference to your project's `tsconfig.json`,
 for example:
 ```javascript
 module.exports = {
-  extends: ['altnext/type-checking'],
+  extends: ['altnext'],
   parserOptions: { tsconfigRootDir: __dirname, project: ['./tsconfig.json'] },
 };
 ```
@@ -83,9 +83,9 @@ The following are the various packages and plugins included when adding this pac
 * [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import)
 * [`eslint-plugin-jest`](https://github.com/jest-community/eslint-plugin-jest)
 * [`eslint-plugin-jest-formatting`](https://github.com/dangreenisrael/eslint-plugin-jest-formatting)
-* [`eslint-plugin-jest-playwright`](https://github.com/playwright-community/eslint-plugin-jest-playwright)
 * [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
 * [`eslint-plugin-node`](https://github.com/mysticatea/eslint-plugin-node)
+* [`eslint-plugin-playwright`](https://github.com/playwright-community/eslint-plugin-playwright)
 * [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier)
 * [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react)
 * [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)
