@@ -1,5 +1,27 @@
 # eslint-config-altnext
 
+## 2.0.2
+
+### Patch Changes
+
+- [#133](https://github.com/AltNext/eslint-config-altnext/pull/133) [`d87ed9b`](https://github.com/AltNext/eslint-config-altnext/commit/d87ed9be52e397bfe650c97f0d0b27a1feb632b4) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v2.0.1
+
+- [#132](https://github.com/AltNext/eslint-config-altnext/pull/132) [`a5adac9`](https://github.com/AltNext/eslint-config-altnext/commit/a5adac91893f0fc856dce6fe5aedc8aaf5747df4) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump mixme from 0.5.1 to 0.5.4
+
+- [#135](https://github.com/AltNext/eslint-config-altnext/pull/135) [`b7529f2`](https://github.com/AltNext/eslint-config-altnext/commit/b7529f291584c9f250ed14f4e083d4a0d51ac62b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.2.0
+
+- [#141](https://github.com/AltNext/eslint-config-altnext/pull/141) [`3c96da7`](https://github.com/AltNext/eslint-config-altnext/commit/3c96da73484e438e2d2cc546d7994f79c8b7bc42) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): update streetsidesoftware/cspell-action action to v1.3.3
+
+- [#141](https://github.com/AltNext/eslint-config-altnext/pull/141) [`3c96da7`](https://github.com/AltNext/eslint-config-altnext/commit/3c96da73484e438e2d2cc546d7994f79c8b7bc42) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): update dependency eslint-plugin-playwright to v0.5.2
+
+- [#141](https://github.com/AltNext/eslint-config-altnext/pull/141) [`3c96da7`](https://github.com/AltNext/eslint-config-altnext/commit/3c96da73484e438e2d2cc546d7994f79c8b7bc42) Thanks [@roikoren755](https://github.com/roikoren755)! - ci: add `mixme` to `cspell` words
+
+- [#134](https://github.com/AltNext/eslint-config-altnext/pull/134) [`bbc3df4`](https://github.com/AltNext/eslint-config-altnext/commit/bbc3df4d516995d2e5f266cc22528f43fbef6d6d) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-jest to v24.5.2
+
+- [#141](https://github.com/AltNext/eslint-config-altnext/pull/141) [`3c96da7`](https://github.com/AltNext/eslint-config-altnext/commit/3c96da73484e438e2d2cc546d7994f79c8b7bc42) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): update dependency cspell to v5.12.1
+
+- [#141](https://github.com/AltNext/eslint-config-altnext/pull/141) [`3c96da7`](https://github.com/AltNext/eslint-config-altnext/commit/3c96da73484e438e2d2cc546d7994f79c8b7bc42) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): update typescript-eslint monorepo to v4.33.0
+
 ## 2.0.1
 
 ### Patch Changes
