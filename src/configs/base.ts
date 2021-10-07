@@ -306,7 +306,12 @@ const base: Linter.Config = {
     },
     { files: ['./**/{__mocks__,__tests__}/*.ts{x,}'], rules: { '@typescript-eslint/no-empty-function': OFF } },
     {
-      files: ['./**/*.story.tsx', './**/webpack.{dev,prod,config}.ts', './**/jest.config.ts'],
+      files: [
+        './**/*.story.tsx',
+        './**/webpack.{dev,prod,config,server}.ts',
+        './**/jest.config.ts',
+        './**/svgo.config.js',
+      ],
       rules: { 'import/no-default-export': OFF },
     },
     { files: ['./**/*.story.tsx'], rules: { 'no-console': OFF } },
