@@ -1,5 +1,17 @@
 # eslint-config-altnext
 
+## 2.0.3
+
+### Patch Changes
+
+- [#138](https://github.com/AltNext/eslint-config-altnext/pull/138) [`f538f4e`](https://github.com/AltNext/eslint-config-altnext/commit/f538f4eadab14c7c0ebab704a54293caa64a3f1b) Thanks [@renovate](https://github.com/apps/renovate)! - fix: add `webpack.server.ts` & `svgo.config.js` to `import/no-export-default` exceptions list
+
+- [#138](https://github.com/AltNext/eslint-config-altnext/pull/138) [`f538f4e`](https://github.com/AltNext/eslint-config-altnext/commit/f538f4eadab14c7c0ebab704a54293caa64a3f1b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v2.0.2
+
+- [#138](https://github.com/AltNext/eslint-config-altnext/pull/138) [`f538f4e`](https://github.com/AltNext/eslint-config-altnext/commit/f538f4eadab14c7c0ebab704a54293caa64a3f1b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.12.2
+
+- [#138](https://github.com/AltNext/eslint-config-altnext/pull/138) [`f538f4e`](https://github.com/AltNext/eslint-config-altnext/commit/f538f4eadab14c7c0ebab704a54293caa64a3f1b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update streetsidesoftware/cspell-action action to v1.3.4
+
 ## 2.0.2
 
 ### Patch Changes
