@@ -62,7 +62,7 @@
     "@changesets/cli": "2.17.0",
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
-    "@types/eslint": "7.28.0",
+    "@types/eslint": "7.28.1",
     "cspell": "5.12.2",
     "eslint-config-altnext": "2.0.2",
     "husky": "7.0.2",
