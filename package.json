@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-altnext",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/altnext/eslint-config-altnext.git"
@@ -64,7 +64,7 @@
     "@commitlint/config-conventional": "13.2.0",
     "@types/eslint": "7.28.1",
     "cspell": "5.12.3",
-    "eslint-config-altnext": "2.0.3",
+    "eslint-config-altnext": "2.1.0",
     "husky": "7.0.2",
     "lint-staged": "11.2.3",
     "typescript": "4.4.3",
