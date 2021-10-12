@@ -1,5 +1,13 @@
 # eslint-config-altnext
 
+## 2.1.1
+
+### Patch Changes
+
+- [#159](https://github.com/AltNext/eslint-config-altnext/pull/159) [`70d8352`](https://github.com/AltNext/eslint-config-altnext/commit/70d835258ac74fd3c3d30bbff41f5d3a3e33b742) Thanks [@roikoren755](https://github.com/roikoren755)! - fix: apply `jest/require-hook` only on spec files
+
+- [#157](https://github.com/AltNext/eslint-config-altnext/pull/157) [`f26b9a8`](https://github.com/AltNext/eslint-config-altnext/commit/f26b9a89f3db1ad1623237df866b38e9d16e5b88) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): update dependency eslint-config-altnext to v2.1.0
+
 ## 2.1.0
 
 ### Minor Changes
