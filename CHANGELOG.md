@@ -1,5 +1,31 @@
 # eslint-config-altnext
 
+## 2.1.0
+
+### Minor Changes
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore: update configs
+
+### Patch Changes
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update typescript-eslint monorepo to v5 (major)
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.2.3
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-unicorn to v37
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/eslint to v7.28.1
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.12.3
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v2.0.3
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-jest to v25
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @commitlint/cli to v13.2.1
+
+- [#148](https://github.com/AltNext/eslint-config-altnext/pull/148) [`1194ccf`](https://github.com/AltNext/eslint-config-altnext/commit/1194ccf42048f9488309f396ac7cf1d0e210ff0b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-plugin-import to v2.25.1
+
 ## 2.0.3
 
 ### Patch Changes
