@@ -198,7 +198,6 @@ const base: Linter.Config = {
     'jest/prefer-lowercase-title': [ERROR, { allowedPrefixes: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'] }],
     'jest/prefer-strict-equal': ERROR,
     'jest/prefer-todo': ERROR,
-    'jest/require-hook': ERROR,
     'jest/require-to-throw-message': ERROR,
     'jest/require-top-level-describe': ERROR,
 
@@ -302,7 +301,10 @@ const base: Linter.Config = {
         '@typescript-eslint/explicit-member-accessibility': OFF,
       },
     },
-    { files: ['./**/{__mocks__,__tests__}/*.ts{x,}'], rules: { '@typescript-eslint/no-empty-function': OFF } },
+    {
+      files: ['./**/{__mocks__,__tests__}/*.ts{x,}'],
+      rules: { '@typescript-eslint/no-empty-function': OFF, 'jest/require-hook': ERROR },
+    },
     {
       files: [
         './**/*.story.tsx',
@@ -314,8 +316,12 @@ const base: Linter.Config = {
     },
     { files: ['./**/*.story.tsx'], rules: { 'no-console': OFF } },
     {
-      files: ['./**/*.spec.ts'],
-      rules: { '@typescript-eslint/no-var-requires': OFF, 'unicorn/no-useless-undefined': OFF },
+      files: ['./**/*.spec.ts', './**/*.spec.tsx'],
+      rules: {
+        '@typescript-eslint/no-var-requires': OFF,
+        'jest/require-hook': ERROR,
+        'unicorn/no-useless-undefined': OFF,
+      },
     },
   ],
 };
