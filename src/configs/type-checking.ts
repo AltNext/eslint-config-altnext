@@ -27,6 +27,7 @@ const typeChecking: Linter.Config = {
     '@typescript-eslint/no-throw-literal': ERROR,
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': ERROR,
     '@typescript-eslint/no-unnecessary-type-arguments': ERROR,
+    '@typescript-eslint/no-unsafe-argument': WARN,
     '@typescript-eslint/no-unsafe-assignment': WARN,
     '@typescript-eslint/no-unsafe-call': WARN,
     '@typescript-eslint/no-unsafe-member-access': WARN,
