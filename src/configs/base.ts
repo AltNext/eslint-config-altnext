@@ -155,7 +155,6 @@ const base: Linter.Config = {
     '@typescript-eslint/prefer-for-of': ERROR,
     '@typescript-eslint/prefer-function-type': ERROR,
     '@typescript-eslint/prefer-optional-chain': WARN,
-    '@typescript-eslint/prefer-regexp-exec': WARN,
     '@typescript-eslint/prefer-ts-expect-error': ERROR,
     '@typescript-eslint/sort-type-union-intersection-members': ERROR,
     '@typescript-eslint/unified-signatures': ERROR,
