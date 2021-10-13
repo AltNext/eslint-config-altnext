@@ -32,5 +32,5 @@ describe('type-checking', () => {
 
   it('should match config when running', async () => {
     await expect(getSnapshot()).resolves.toMatchSnapshot();
-  }, 10_000);
+  });
 });

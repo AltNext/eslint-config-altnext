@@ -1,8 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`playwright should match config when running 1`] = `
-"[2K[1G[2m$ CWD/node_modules/.bin/eslint -c playwright.js --print-config ./test.ts --no-color[22m
-{
+"{
   \\"env\\": {
     \\"shared-node-browser\\": true,
     \\"jest\\": true,

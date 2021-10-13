@@ -1,8 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`base should match config when running 1`] = `
-"[2K[1G[2m$ CWD/node_modules/.bin/eslint -c base.js --print-config ./test.ts --no-color[22m
-{
+"{
   \\"env\\": {
     \\"browser\\": true,
     \\"node\\": true,

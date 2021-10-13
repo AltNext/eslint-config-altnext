@@ -25,5 +25,5 @@ describe('base', () => {
 
   it('should match config when running', async () => {
     await expect(getSnapshot('base')).resolves.toMatchSnapshot();
-  }, 10_000);
+  });
 });

@@ -8,5 +8,5 @@ describe('playwright', () => {
 
   it('should match config when running', async () => {
     await expect(getSnapshot('playwright')).resolves.toMatchSnapshot();
-  }, 10_000);
+  });
 });

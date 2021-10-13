@@ -1,4 +1,5 @@
-import execa from 'execa';
+import { ESLint } from 'eslint';
+import type { Linter } from 'eslint';
 
 const PREFIX = '@typescript-eslint/';
 
@@ -13,15 +14,11 @@ export const reduceBooleanArray = (arr: boolean[], defaultValue = false): boolea
   arr.reduce((acc, value) => (defaultValue ? acc && value : acc || value), defaultValue);
 
 export const getSnapshot = async (config?: string): Promise<string> => {
-  const { stdout } = await execa('yarn', [
-    '--emoji',
-    'false',
-    'eslint',
-    ...(config ? ['-c', `${config}.js`] : []),
-    '--print-config',
-    './test.ts',
-    '--no-color',
-  ]);
+  const eslint = new ESLint({ overrideConfigFile: config ? `${config}.js` : undefined });
+  const configuration = (await eslint.calculateConfigForFile('test.ts')) as Linter.Config;
 
-  return stdout.replace(new RegExp(process.env.INIT_CWD ?? 'thisWillNeverMatchAnythingHopefully', 'g'), 'CWD');
+  return JSON.stringify(configuration, null, 2).replace(
+    new RegExp(process.env.INIT_CWD ?? 'thisWillNeverMatchAnythingHopefully', 'g'),
+    'CWD',
+  );
 };
