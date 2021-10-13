@@ -6,7 +6,6 @@ import execa from 'execa';
 
 describe('type-checking', () => {
   it('should match snapshot', () => {
-    // eslint-disable-next-line playwright/missing-playwright-await
     expect(typeChecking).toMatchSnapshot();
   });
 
@@ -35,7 +34,6 @@ describe('type-checking', () => {
   it('should match config when running', async () => {
     const { stdout } = await execa('yarn', ['eslint', '--print-config', './test.ts']);
 
-    // eslint-disable-next-line playwright/missing-playwright-await
     expect(stdout).toMatchSnapshot();
   }, 10_000);
 });

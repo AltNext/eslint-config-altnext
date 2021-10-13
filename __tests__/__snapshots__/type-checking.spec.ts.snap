@@ -7,18 +7,10 @@ exports[`type-checking should match config when running 1`] = `
     \\"browser\\": true,
     \\"node\\": true,
     \\"es6\\": true,
-    \\"shared-node-browser\\": true,
-    \\"jest\\": true,
     \\"jest/globals\\": true
   },
   \\"globals\\": {
     \\"console\\": true,
-    \\"browserName\\": true,
-    \\"deviceName\\": true,
-    \\"browser\\": true,
-    \\"context\\": true,
-    \\"page\\": true,
-    \\"jestPlaywright\\": true,
     \\"ArrayBuffer\\": \\"readonly\\",
     \\"Atomics\\": \\"readonly\\",
     \\"BigInt\\": \\"readonly\\",
@@ -85,9 +77,8 @@ exports[`type-checking should match config when running 1`] = `
   \\"plugins\\": [
     \\"@typescript-eslint\\",
     \\"node\\",
-    \\"jest-formatting\\",
-    \\"playwright\\",
     \\"jest\\",
+    \\"jest-formatting\\",
     \\"react\\",
     \\"react-hooks\\",
     \\"jsx-a11y\\",
@@ -1979,22 +1970,6 @@ exports[`type-checking should match config when running 1`] = `
     \\"react/require-render-return\\": [
       2
     ],
-    \\"playwright/missing-playwright-await\\": [
-      \\"error\\"
-    ],
-    \\"jest/no-standalone-expect\\": [
-      \\"error\\",
-      {
-        \\"additionalTestBlockFunctions\\": [
-          \\"test.jestPlaywrightDebug\\",
-          \\"it.jestPlaywrightDebug\\",
-          \\"test.jestPlaywrightSkip\\",
-          \\"it.jestPlaywrightSkip\\",
-          \\"test.jestPlaywrightConfig\\",
-          \\"it.jestPlaywrightConfig\\"
-        ]
-      }
-    ],
     \\"jest/no-alias-methods\\": [
       \\"warn\\"
     ],
@@ -2035,6 +2010,9 @@ exports[`type-checking should match config when running 1`] = `
       \\"error\\"
     ],
     \\"jest/no-jest-import\\": [
+      \\"error\\"
+    ],
+    \\"jest/no-standalone-expect\\": [
       \\"error\\"
     ],
     \\"jest/no-test-prefixes\\": [

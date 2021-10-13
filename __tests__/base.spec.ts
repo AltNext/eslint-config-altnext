@@ -6,7 +6,6 @@ import { getTsEslintRules, reduceBooleanArray } from './common';
 
 describe('base', () => {
   it('should match snapshot', () => {
-    // eslint-disable-next-line playwright/missing-playwright-await
     expect(base).toMatchSnapshot();
   });
 
@@ -28,7 +27,6 @@ describe('base', () => {
   it('should match config when running', async () => {
     const { stdout } = await execa('yarn', ['eslint', '-c', 'base.js', '--print-config', './test.ts']);
 
-    // eslint-disable-next-line playwright/missing-playwright-await
     expect(stdout).toMatchSnapshot();
   }, 10_000);
 });

@@ -9,6 +9,7 @@
     "__tests__/**/*.ts",
     "index.ts",
     "base.ts",
+    "playwright.ts",
     "type-checking.ts",
     ".eslintrc.ts",
     ".prettierrc.js",

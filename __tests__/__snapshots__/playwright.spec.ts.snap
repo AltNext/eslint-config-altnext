@@ -1,15 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`base should match config when running 1`] = `
-"[2K[1G[2m$ /Users/roikoren/altnext/eslint-config-altnext/node_modules/.bin/eslint -c base.js --print-config ./test.ts[22m
+exports[`playwright should match config when running 1`] = `
+"[2K[1G[2m$ /Users/roikoren/altnext/eslint-config-altnext/node_modules/.bin/eslint -c playwright.js --print-config ./test.ts[22m
 {
   \\"env\\": {
+    \\"shared-node-browser\\": true,
+    \\"jest\\": true,
     \\"browser\\": true,
     \\"node\\": true,
     \\"es6\\": true,
     \\"jest/globals\\": true
   },
   \\"globals\\": {
+    \\"browserName\\": true,
+    \\"deviceName\\": true,
+    \\"browser\\": true,
+    \\"context\\": true,
+    \\"page\\": true,
+    \\"jestPlaywright\\": true,
     \\"console\\": true,
     \\"ArrayBuffer\\": \\"readonly\\",
     \\"Atomics\\": \\"readonly\\",
@@ -62,32 +70,178 @@ exports[`base should match config when running 1`] = `
   },
   \\"parser\\": \\"/Users/roikoren/altnext/eslint-config-altnext/node_modules/@typescript-eslint/parser/dist/index.js\\",
   \\"parserOptions\\": {
+    \\"tsconfigRootDir\\": \\"/Users/roikoren/altnext/eslint-config-altnext\\",
+    \\"project\\": [
+      \\"./tsconfig.eslint.json\\"
+    ],
     \\"ecmaVersion\\": 6,
     \\"jsxPragma\\": null,
     \\"sourceType\\": \\"module\\",
     \\"ecmaFeatures\\": {
       \\"jsx\\": true,
       \\"globalReturn\\": false
-    },
-    \\"tsconfigRootDir\\": \\"/Users/roikoren/altnext/eslint-config-altnext\\",
-    \\"project\\": [
-      \\"./tsconfig.eslint.json\\"
-    ]
+    }
   },
   \\"plugins\\": [
     \\"@typescript-eslint\\",
     \\"node\\",
-    \\"jest\\",
     \\"jest-formatting\\",
     \\"react\\",
     \\"react-hooks\\",
     \\"jsx-a11y\\",
     \\"unicorn\\",
     \\"prettier\\",
-    \\"import\\"
+    \\"import\\",
+    \\"playwright\\",
+    \\"jest\\"
   ],
   \\"reportUnusedDisableDirectives\\": true,
   \\"rules\\": {
+    \\"playwright/missing-playwright-await\\": [
+      \\"error\\"
+    ],
+    \\"jest/no-standalone-expect\\": [
+      \\"error\\",
+      {
+        \\"additionalTestBlockFunctions\\": [
+          \\"test.jestPlaywrightDebug\\",
+          \\"it.jestPlaywrightDebug\\",
+          \\"test.jestPlaywrightSkip\\",
+          \\"it.jestPlaywrightSkip\\",
+          \\"test.jestPlaywrightConfig\\",
+          \\"it.jestPlaywrightConfig\\"
+        ]
+      }
+    ],
+    \\"@typescript-eslint/dot-notation\\": [
+      2
+    ],
+    \\"@typescript-eslint/naming-convention\\": [
+      2,
+      {
+        \\"selector\\": \\"property\\",
+        \\"format\\": [
+          \\"camelCase\\",
+          \\"UPPER_CASE\\",
+          \\"PascalCase\\"
+        ],
+        \\"leadingUnderscore\\": \\"allow\\",
+        \\"filter\\": {
+          \\"regex\\": \\"^process\\\\\\\\.env\\\\\\\\.[A-Z][A-Z_]*$\\",
+          \\"match\\": false
+        }
+      },
+      {
+        \\"selector\\": \\"variable\\",
+        \\"format\\": [
+          \\"camelCase\\",
+          \\"UPPER_CASE\\",
+          \\"PascalCase\\"
+        ],
+        \\"leadingUnderscore\\": \\"allow\\"
+      },
+      {
+        \\"selector\\": \\"typeLike\\",
+        \\"format\\": [
+          \\"PascalCase\\"
+        ]
+      },
+      {
+        \\"selector\\": \\"typeAlias\\",
+        \\"format\\": [
+          \\"PascalCase\\"
+        ],
+        \\"custom\\": {
+          \\"regex\\": \\"^I[A-Z]\\",
+          \\"match\\": false
+        }
+      },
+      {
+        \\"selector\\": \\"interface\\",
+        \\"format\\": [
+          \\"PascalCase\\"
+        ],
+        \\"prefix\\": [
+          \\"I\\"
+        ]
+      }
+    ],
+    \\"@typescript-eslint/no-base-to-string\\": [
+      2
+    ],
+    \\"@typescript-eslint/no-confusing-void-expression\\": [
+      2
+    ],
+    \\"@typescript-eslint/no-floating-promises\\": [
+      1
+    ],
+    \\"@typescript-eslint/no-implied-eval\\": [
+      2
+    ],
+    \\"@typescript-eslint/no-meaningless-void-operator\\": [
+      2,
+      {
+        \\"checkNever\\": false
+      }
+    ],
+    \\"@typescript-eslint/no-throw-literal\\": [
+      2
+    ],
+    \\"@typescript-eslint/no-unnecessary-boolean-literal-compare\\": [
+      2
+    ],
+    \\"@typescript-eslint/no-unnecessary-type-arguments\\": [
+      2
+    ],
+    \\"@typescript-eslint/no-unsafe-argument\\": [
+      1
+    ],
+    \\"@typescript-eslint/no-unsafe-assignment\\": [
+      1
+    ],
+    \\"@typescript-eslint/no-unsafe-call\\": [
+      1
+    ],
+    \\"@typescript-eslint/no-unsafe-member-access\\": [
+      1
+    ],
+    \\"@typescript-eslint/no-unsafe-return\\": [
+      1
+    ],
+    \\"@typescript-eslint/prefer-nullish-coalescing\\": [
+      1
+    ],
+    \\"@typescript-eslint/prefer-readonly\\": [
+      2
+    ],
+    \\"@typescript-eslint/prefer-reduce-type-parameter\\": [
+      2
+    ],
+    \\"@typescript-eslint/prefer-regexp-exec\\": [
+      1
+    ],
+    \\"@typescript-eslint/prefer-return-this-type\\": [
+      2
+    ],
+    \\"@typescript-eslint/require-array-sort-compare\\": [
+      2
+    ],
+    \\"@typescript-eslint/require-await\\": [
+      2
+    ],
+    \\"@typescript-eslint/restrict-template-expressions\\": [
+      1
+    ],
+    \\"@typescript-eslint/return-await\\": [
+      2,
+      \\"in-try-catch\\"
+    ],
+    \\"@typescript-eslint/switch-exhaustiveness-check\\": [
+      2
+    ],
+    \\"@typescript-eslint/unbound-method\\": [
+      1
+    ],
     \\"array-callback-return\\": [
       2
     ],
@@ -1883,9 +2037,6 @@ exports[`base should match config when running 1`] = `
     \\"jest/no-jest-import\\": [
       \\"error\\"
     ],
-    \\"jest/no-standalone-expect\\": [
-      \\"error\\"
-    ],
     \\"jest/no-test-prefixes\\": [
       \\"error\\"
     ],
@@ -2150,135 +2301,6 @@ exports[`base should match config when running 1`] = `
     \\"use-isnan\\": [
       \\"error\\"
     ],
-    \\"@typescript-eslint/dot-notation\\": [
-      2
-    ],
-    \\"@typescript-eslint/naming-convention\\": [
-      2,
-      {
-        \\"selector\\": \\"property\\",
-        \\"format\\": [
-          \\"camelCase\\",
-          \\"UPPER_CASE\\",
-          \\"PascalCase\\"
-        ],
-        \\"leadingUnderscore\\": \\"allow\\",
-        \\"filter\\": {
-          \\"regex\\": \\"^process\\\\\\\\.env\\\\\\\\.[A-Z][A-Z_]*$\\",
-          \\"match\\": false
-        }
-      },
-      {
-        \\"selector\\": \\"variable\\",
-        \\"format\\": [
-          \\"camelCase\\",
-          \\"UPPER_CASE\\",
-          \\"PascalCase\\"
-        ],
-        \\"leadingUnderscore\\": \\"allow\\"
-      },
-      {
-        \\"selector\\": \\"typeLike\\",
-        \\"format\\": [
-          \\"PascalCase\\"
-        ]
-      },
-      {
-        \\"selector\\": \\"typeAlias\\",
-        \\"format\\": [
-          \\"PascalCase\\"
-        ],
-        \\"custom\\": {
-          \\"regex\\": \\"^I[A-Z]\\",
-          \\"match\\": false
-        }
-      },
-      {
-        \\"selector\\": \\"interface\\",
-        \\"format\\": [
-          \\"PascalCase\\"
-        ],
-        \\"prefix\\": [
-          \\"I\\"
-        ]
-      }
-    ],
-    \\"@typescript-eslint/no-base-to-string\\": [
-      2
-    ],
-    \\"@typescript-eslint/no-confusing-void-expression\\": [
-      2
-    ],
-    \\"@typescript-eslint/no-floating-promises\\": [
-      1
-    ],
-    \\"@typescript-eslint/no-implied-eval\\": [
-      2
-    ],
-    \\"@typescript-eslint/no-meaningless-void-operator\\": [
-      2,
-      {
-        \\"checkNever\\": false
-      }
-    ],
-    \\"@typescript-eslint/no-throw-literal\\": [
-      2
-    ],
-    \\"@typescript-eslint/no-unnecessary-boolean-literal-compare\\": [
-      2
-    ],
-    \\"@typescript-eslint/no-unnecessary-type-arguments\\": [
-      2
-    ],
-    \\"@typescript-eslint/no-unsafe-argument\\": [
-      1
-    ],
-    \\"@typescript-eslint/no-unsafe-assignment\\": [
-      1
-    ],
-    \\"@typescript-eslint/no-unsafe-call\\": [
-      1
-    ],
-    \\"@typescript-eslint/no-unsafe-member-access\\": [
-      1
-    ],
-    \\"@typescript-eslint/no-unsafe-return\\": [
-      1
-    ],
-    \\"@typescript-eslint/prefer-nullish-coalescing\\": [
-      1
-    ],
-    \\"@typescript-eslint/prefer-readonly\\": [
-      2
-    ],
-    \\"@typescript-eslint/prefer-reduce-type-parameter\\": [
-      2
-    ],
-    \\"@typescript-eslint/prefer-regexp-exec\\": [
-      1
-    ],
-    \\"@typescript-eslint/prefer-return-this-type\\": [
-      2
-    ],
-    \\"@typescript-eslint/require-array-sort-compare\\": [
-      2
-    ],
-    \\"@typescript-eslint/require-await\\": [
-      2
-    ],
-    \\"@typescript-eslint/restrict-template-expressions\\": [
-      1
-    ],
-    \\"@typescript-eslint/return-await\\": [
-      2,
-      \\"in-try-catch\\"
-    ],
-    \\"@typescript-eslint/switch-exhaustiveness-check\\": [
-      2
-    ],
-    \\"@typescript-eslint/unbound-method\\": [
-      1
-    ],
     \\"@typescript-eslint/await-thenable\\": [
       \\"error\\"
     ],
@@ -2334,575 +2356,10 @@ exports[`base should match config when running 1`] = `
 }"
 `;
 
-exports[`base should match snapshot 1`] = `
+exports[`playwright should match snapshot 1`] = `
 Object {
-  "env": Object {
-    "browser": true,
-    "node": true,
-  },
   "extends": Array [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/errors",
-    "plugin:node/recommended",
-    "plugin:node/recommended-module",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
-    "plugin:jest-formatting/strict",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:unicorn/recommended",
-    "plugin:prettier/recommended",
+    "plugin:playwright/jest-playwright",
   ],
-  "globals": Object {
-    "console": true,
-  },
-  "overrides": Array [
-    Object {
-      "files": Array [
-        "./**/.eslintrc.js",
-        "./**/.prettierrc.js",
-        "./**/babel.config.js",
-        "./**/commitlint.config.js",
-        "./**/svgo.config.js",
-      ],
-      "rules": Object {
-        "no-undef": 0,
-      },
-    },
-    Object {
-      "files": Array [
-        "./**/*.js",
-      ],
-      "rules": Object {
-        "@typescript-eslint/explicit-function-return-type": 0,
-        "@typescript-eslint/explicit-member-accessibility": 0,
-      },
-    },
-    Object {
-      "files": Array [
-        "./**/{__mocks__,__tests__}/*.ts{x,}",
-      ],
-      "rules": Object {
-        "@typescript-eslint/no-empty-function": 0,
-        "jest/require-hook": 2,
-      },
-    },
-    Object {
-      "files": Array [
-        "./**/*.story.tsx",
-        "./**/webpack.{dev,prod,config,server}.ts",
-        "./**/jest.config.ts",
-        "./**/svgo.config.js",
-      ],
-      "rules": Object {
-        "import/no-default-export": 0,
-      },
-    },
-    Object {
-      "files": Array [
-        "./**/*.story.tsx",
-      ],
-      "rules": Object {
-        "no-console": 0,
-      },
-    },
-    Object {
-      "files": Array [
-        "./**/*.spec.ts",
-        "./**/*.spec.tsx",
-      ],
-      "rules": Object {
-        "@typescript-eslint/no-var-requires": 0,
-        "jest/require-hook": 2,
-        "unicorn/no-useless-undefined": 0,
-      },
-    },
-  ],
-  "parserOptions": Object {
-    "ecmaVersion": 6,
-    "jsxPragma": null,
-  },
-  "plugins": Array [
-    "import",
-  ],
-  "reportUnusedDisableDirectives": true,
-  "rules": Object {
-    "@typescript-eslint/array-type": 2,
-    "@typescript-eslint/ban-ts-comment": Array [
-      2,
-      Object {
-        "ts-expect-error": false,
-      },
-    ],
-    "@typescript-eslint/ban-ts-ignore": 0,
-    "@typescript-eslint/ban-types": 1,
-    "@typescript-eslint/camelcase": 0,
-    "@typescript-eslint/class-literal-property-style": 2,
-    "@typescript-eslint/consistent-indexed-object-style": 2,
-    "@typescript-eslint/consistent-type-definitions": 2,
-    "@typescript-eslint/consistent-type-imports": 2,
-    "@typescript-eslint/default-param-last": 2,
-    "@typescript-eslint/explicit-function-return-type": Array [
-      2,
-      Object {
-        "allowExpressions": true,
-      },
-    ],
-    "@typescript-eslint/explicit-member-accessibility": Array [
-      2,
-      Object {
-        "accessibility": "no-public",
-      },
-    ],
-    "@typescript-eslint/explicit-module-boundary-types": 1,
-    "@typescript-eslint/interface-name-prefix": 0,
-    "@typescript-eslint/method-signature-style": Array [
-      2,
-      "method",
-    ],
-    "@typescript-eslint/no-empty-function": 1,
-    "@typescript-eslint/no-empty-interface": Array [
-      1,
-      Object {
-        "allowSingleExtends": true,
-      },
-    ],
-    "@typescript-eslint/no-extra-non-null-assertion": 2,
-    "@typescript-eslint/no-extraneous-class": 2,
-    "@typescript-eslint/no-invalid-void-type": 2,
-    "@typescript-eslint/no-non-null-asserted-nullish-coalescing": 2,
-    "@typescript-eslint/no-non-null-asserted-optional-chain": 2,
-    "@typescript-eslint/no-parameter-properties": 2,
-    "@typescript-eslint/no-unused-expressions": Array [
-      2,
-      Object {
-        "allowTernary": true,
-      },
-    ],
-    "@typescript-eslint/no-unused-vars": Array [
-      2,
-      Object {
-        "ignoreRestSiblings": true,
-      },
-    ],
-    "@typescript-eslint/no-use-before-define": 1,
-    "@typescript-eslint/no-useless-constructor": 2,
-    "@typescript-eslint/no-var-requires": 1,
-    "@typescript-eslint/prefer-as-const": 2,
-    "@typescript-eslint/prefer-for-of": 2,
-    "@typescript-eslint/prefer-function-type": 2,
-    "@typescript-eslint/prefer-optional-chain": 1,
-    "@typescript-eslint/prefer-ts-expect-error": 2,
-    "@typescript-eslint/sort-type-union-intersection-members": 2,
-    "@typescript-eslint/unified-signatures": 2,
-    "array-callback-return": 2,
-    "arrow-body-style": 2,
-    "consistent-return": Array [
-      1,
-      Object {
-        "treatUndefinedAsUnspecified": true,
-      },
-    ],
-    "curly": 2,
-    "default-case": 2,
-    "eqeqeq": 2,
-    "guard-for-in": 1,
-    "import/extensions": Array [
-      2,
-      Object {
-        "hoc": "always",
-        "js": "never",
-        "json": "always",
-        "jsx": "never",
-        "service": "always",
-        "ts": "never",
-        "tsx": "never",
-      },
-    ],
-    "import/first": 2,
-    "import/named": 0,
-    "import/namespace": 0,
-    "import/newline-after-import": 2,
-    "import/no-cycle": 1,
-    "import/no-default-export": 2,
-    "import/no-extraneous-dependencies": 2,
-    "import/no-unresolved": 1,
-    "import/no-useless-path-segments": 2,
-    "import/order": Array [
-      0,
-      Object {
-        "groups": Array [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-        ],
-        "pathGroups": Array [
-          Object {
-            "group": "internal",
-            "pattern": "@(?:components|pages|hooks|store|services)/**",
-            "position": "after",
-          },
-          Object {
-            "group": "external",
-            "pattern": "@altnext/**",
-            "position": "after",
-          },
-        ],
-      },
-    ],
-    "jest-formatting/padding-around-all": 1,
-    "jest/consistent-test-it": 2,
-    "jest/expect-expect": Array [
-      2,
-      Object {
-        "assertFunctionNames": Array [
-          "expect",
-          "assertErrorsUniqueAndStartsWith",
-          "assertApiError",
-          "assertError",
-          "preTestAssertions",
-          "assertAuthCalledWith",
-          "assertResponse",
-          "assertResponseAndNotCalled",
-        ],
-      },
-    ],
-    "jest/max-nested-describe": 2,
-    "jest/no-deprecated-functions": 1,
-    "jest/no-duplicate-hooks": 2,
-    "jest/no-if": 2,
-    "jest/no-mocks-import": 0,
-    "jest/no-test-return-statement": 2,
-    "jest/prefer-called-with": 2,
-    "jest/prefer-expect-resolves": 2,
-    "jest/prefer-hooks-on-top": 2,
-    "jest/prefer-lowercase-title": Array [
-      2,
-      Object {
-        "allowedPrefixes": Array [
-          "GET",
-          "POST",
-          "DELETE",
-          "PUT",
-          "PATCH",
-        ],
-      },
-    ],
-    "jest/prefer-strict-equal": 2,
-    "jest/prefer-todo": 2,
-    "jest/require-to-throw-message": 2,
-    "jest/require-top-level-describe": 2,
-    "jsx-a11y/no-autofocus": 0,
-    "lines-between-class-members": 2,
-    "max-lines": 2,
-    "no-bitwise": 2,
-    "no-caller": 2,
-    "no-case-declarations": 0,
-    "no-console": 1,
-    "no-constructor-return": 2,
-    "no-continue": 1,
-    "no-else-return": 2,
-    "no-eval": 2,
-    "no-extend-native": 2,
-    "no-extra-bind": 2,
-    "no-floating-decimal": 2,
-    "no-implicit-coercion": Array [
-      2,
-      Object {
-        "allow": Array [
-          "!!",
-        ],
-      },
-    ],
-    "no-invalid-this": 1,
-    "no-iterator": 2,
-    "no-lone-blocks": 2,
-    "no-lonely-if": 2,
-    "no-loop-func": 2,
-    "no-multi-assign": 2,
-    "no-nested-ternary": 2,
-    "no-new": 2,
-    "no-new-func": 2,
-    "no-new-wrappers": 2,
-    "no-param-reassign": 2,
-    "no-path-concat": 2,
-    "no-plusplus": Array [
-      2,
-      Object {
-        "allowForLoopAfterthoughts": true,
-      },
-    ],
-    "no-process-exit": 0,
-    "no-proto": 2,
-    "no-return-assign": 2,
-    "no-script-url": 2,
-    "no-self-compare": 2,
-    "no-shadow": 2,
-    "no-template-curly-in-string": 2,
-    "no-undef-init": 2,
-    "no-underscore-dangle": Array [
-      1,
-      Object {
-        "allowAfterSuper": true,
-        "allowAfterThis": true,
-      },
-    ],
-    "no-unmodified-loop-condition": 2,
-    "no-unneeded-ternary": Array [
-      2,
-      Object {
-        "defaultAssignment": false,
-      },
-    ],
-    "no-useless-call": 2,
-    "no-useless-computed-key": 2,
-    "no-useless-concat": 2,
-    "no-useless-return": 2,
-    "no-void": 2,
-    "node/handle-callback-err": 2,
-    "node/no-deprecated-api": 1,
-    "node/no-missing-import": 0,
-    "node/no-new-require": 2,
-    "node/no-path-concat": 2,
-    "node/no-process-exit": 2,
-    "node/no-unpublished-import": 0,
-    "node/no-unsupported-features/es-syntax": 0,
-    "node/no-unsupported-features/node-builtins": 0,
-    "object-shorthand": 2,
-    "one-var": Array [
-      2,
-      "never",
-    ],
-    "operator-assignment": 2,
-    "padding-line-between-statements": Array [
-      2,
-      Object {
-        "blankLine": "always",
-        "next": "*",
-        "prev": "directive",
-      },
-      Object {
-        "blankLine": "any",
-        "next": "directive",
-        "prev": "directive",
-      },
-      Object {
-        "blankLine": "always",
-        "next": "*",
-        "prev": "import",
-      },
-      Object {
-        "blankLine": "any",
-        "next": "import",
-        "prev": "import",
-      },
-      Object {
-        "blankLine": "always",
-        "next": Array [
-          "const",
-          "let",
-          "var",
-          "export",
-        ],
-        "prev": "*",
-      },
-      Object {
-        "blankLine": "always",
-        "next": "*",
-        "prev": Array [
-          "const",
-          "let",
-          "var",
-          "export",
-        ],
-      },
-      Object {
-        "blankLine": "any",
-        "next": Array [
-          "const",
-          "let",
-          "var",
-          "export",
-        ],
-        "prev": Array [
-          "const",
-          "let",
-          "var",
-          "export",
-        ],
-      },
-      Object {
-        "blankLine": "always",
-        "next": Array [
-          "if",
-          "class",
-          "for",
-          "do",
-          "while",
-          "switch",
-          "try",
-        ],
-        "prev": "*",
-      },
-      Object {
-        "blankLine": "always",
-        "next": "*",
-        "prev": Array [
-          "if",
-          "class",
-          "for",
-          "do",
-          "while",
-          "switch",
-          "try",
-        ],
-      },
-      Object {
-        "blankLine": "always",
-        "next": "return",
-        "prev": "*",
-      },
-    ],
-    "prefer-destructuring": 2,
-    "prefer-exponentiation-operator": 2,
-    "prefer-numeric-literals": 2,
-    "prefer-promise-reject-errors": 2,
-    "prefer-regex-literals": 2,
-    "prefer-template": 2,
-    "quote-props": Array [
-      2,
-      "as-needed",
-    ],
-    "radix": 2,
-    "react/display-name": 1,
-    "react/jsx-boolean-value": 2,
-    "react/jsx-curly-brace-presence": Array [
-      2,
-      Object {
-        "props": "always",
-      },
-    ],
-    "react/jsx-fragments": 2,
-    "react/jsx-no-bind": 2,
-    "react/jsx-no-script-url": 2,
-    "react/jsx-no-target-blank": 2,
-    "react/jsx-no-useless-fragment": Array [
-      2,
-      Object {
-        "allowExpressions": true,
-      },
-    ],
-    "react/jsx-pascal-case": Array [
-      2,
-      Object {
-        "ignore": Array [
-          "DAB",
-        ],
-      },
-    ],
-    "react/jsx-sort-props": Array [
-      2,
-      Object {
-        "reservedFirst": true,
-        "shorthandLast": true,
-      },
-    ],
-    "react/no-array-index-key": 2,
-    "react/no-children-prop": 2,
-    "react/no-danger": 2,
-    "react/no-string-refs": Array [
-      2,
-      Object {
-        "noTemplateLiterals": true,
-      },
-    ],
-    "react/no-unescaped-entities": 2,
-    "react/prefer-stateless-function": 2,
-    "react/prop-types": 0,
-    "sort-imports": Array [
-      2,
-      Object {
-        "ignoreDeclarationSort": true,
-      },
-    ],
-    "spaced-comment": 2,
-    "strict": 2,
-    "unicorn/better-regex": 1,
-    "unicorn/catch-error-name": 0,
-    "unicorn/consistent-function-scoping": 0,
-    "unicorn/explicit-length-check": 1,
-    "unicorn/filename-case": 1,
-    "unicorn/import-index": 1,
-    "unicorn/import-style": 1,
-    "unicorn/no-array-callback-reference": 1,
-    "unicorn/no-array-for-each": 0,
-    "unicorn/no-array-reduce": 0,
-    "unicorn/no-null": 0,
-    "unicorn/no-object-as-default-parameter": 1,
-    "unicorn/no-process-exit": 0,
-    "unicorn/no-unreadable-array-destructuring": 0,
-    "unicorn/no-useless-undefined": 0,
-    "unicorn/prefer-add-event-listener": 1,
-    "unicorn/prefer-array-flat": 0,
-    "unicorn/prefer-module": 0,
-    "unicorn/prefer-negative-index": 1,
-    "unicorn/prefer-node-protocol": 0,
-    "unicorn/prefer-number-properties": 0,
-    "unicorn/prefer-object-from-entries": 0,
-    "unicorn/prefer-optional-catch-binding": 1,
-    "unicorn/prefer-query-selector": 1,
-    "unicorn/prefer-set-has": 1,
-    "unicorn/prefer-spread": 0,
-    "unicorn/prefer-string-slice": 1,
-    "unicorn/prefer-ternary": 1,
-    "unicorn/prevent-abbreviations": 0,
-    "unicorn/template-indent": Array [
-      1,
-      Object {
-        "tags": Array [
-          "bq",
-          "gql",
-          "html",
-          "pg",
-          "query",
-          "sql",
-          "styled",
-        ],
-      },
-    ],
-    "yoda": 2,
-  },
-  "settings": Object {
-    "import/parsers": Object {
-      "@typescript-eslint/parser": Array [
-        ".ts",
-        ".tsx",
-      ],
-    },
-    "import/resolver": Object {
-      "node": Object {
-        "extensions": Array [
-          ".ts",
-          ".jsx",
-          ".js",
-          ".tsx",
-          ".json",
-        ],
-      },
-      "typescript": Object {},
-    },
-    "jest": Object {
-      "version": 27,
-    },
-    "react": Object {
-      "version": "17.0.2",
-    },
-  },
 }
 `;

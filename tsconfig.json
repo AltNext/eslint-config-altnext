@@ -12,5 +12,5 @@
     "resolveJsonModule": true
   },
   "exclude": ["**/*.spec.ts", "**/*.spec.tsx", "**/__tests__", "**/dist/**/*"],
-  "include": ["src/**/*", "index.ts", "base.ts", "type-checking.ts", ".eslintrc.ts"]
+  "include": ["src/**/*", "index.ts", "base.ts", "playwright.ts", "type-checking.ts", ".eslintrc.ts"]
 }

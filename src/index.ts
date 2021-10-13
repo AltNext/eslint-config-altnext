@@ -1,1 +1,1 @@
-export { base, configs, typeChecking } from './configs';
+export { base, configs, playwright, typeChecking } from './configs';
