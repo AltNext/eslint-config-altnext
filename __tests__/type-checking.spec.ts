@@ -1,8 +1,8 @@
 import { rules } from '@typescript-eslint/eslint-plugin';
+import execa from 'execa';
 
 import { typeChecking } from '../src';
-import { getTsEslintRules, reduceBooleanArray } from './common';
-import execa from 'execa';
+import { anonymizeSnapshot, getTsEslintRules, reduceBooleanArray } from './common';
 
 describe('type-checking', () => {
   it('should match snapshot', () => {
@@ -34,6 +34,6 @@ describe('type-checking', () => {
   it('should match config when running', async () => {
     const { stdout } = await execa('yarn', ['eslint', '--print-config', './test.ts']);
 
-    expect(stdout).toMatchSnapshot();
+    expect(anonymizeSnapshot(stdout)).toMatchSnapshot();
   }, 10_000);
 });

@@ -2,7 +2,7 @@ import { rules } from '@typescript-eslint/eslint-plugin';
 import execa from 'execa';
 
 import { base } from '../src';
-import { getTsEslintRules, reduceBooleanArray } from './common';
+import { anonymizeSnapshot, getTsEslintRules, reduceBooleanArray } from './common';
 
 describe('base', () => {
   it('should match snapshot', () => {
@@ -27,6 +27,8 @@ describe('base', () => {
   it('should match config when running', async () => {
     const { stdout } = await execa('yarn', ['eslint', '-c', 'base.js', '--print-config', './test.ts']);
 
-    expect(stdout).toMatchSnapshot();
+    console.log(process.env);
+
+    expect(anonymizeSnapshot(stdout)).toMatchSnapshot();
   }, 10_000);
 });

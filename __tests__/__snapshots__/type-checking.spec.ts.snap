@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`type-checking should match config when running 1`] = `
-"[2K[1G[2m$ /Users/roikoren/altnext/eslint-config-altnext/node_modules/.bin/eslint --print-config ./test.ts[22m
+"[2K[1G[2m$ CWD/node_modules/.bin/eslint --print-config ./test.ts[22m
 {
   \\"env\\": {
     \\"browser\\": true,
@@ -60,9 +60,9 @@ exports[`type-checking should match config when running 1`] = `
     \\"module\\": \\"off\\",
     \\"require\\": \\"off\\"
   },
-  \\"parser\\": \\"/Users/roikoren/altnext/eslint-config-altnext/node_modules/@typescript-eslint/parser/dist/index.js\\",
+  \\"parser\\": \\"CWD/node_modules/@typescript-eslint/parser/dist/index.js\\",
   \\"parserOptions\\": {
-    \\"tsconfigRootDir\\": \\"/Users/roikoren/altnext/eslint-config-altnext\\",
+    \\"tsconfigRootDir\\": \\"CWD\\",
     \\"project\\": [
       \\"./tsconfig.eslint.json\\"
     ],

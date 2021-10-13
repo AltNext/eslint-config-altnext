@@ -9,3 +9,6 @@ export const getTsEslintRules = ({ rules }: { rules?: Record<string, unknown> })
 
 export const reduceBooleanArray = (arr: boolean[], defaultValue = false): boolean =>
   arr.reduce((acc, value) => (defaultValue ? acc && value : acc || value), defaultValue);
+
+export const anonymizeSnapshot = (snapshot: string): string =>
+  snapshot.replace(new RegExp(process.env.INIT_CWD ?? 'thisWillNeverMatchAnythingHopefully', 'g'), 'CWD');
