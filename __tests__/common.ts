@@ -14,6 +14,8 @@ export const reduceBooleanArray = (arr: boolean[], defaultValue = false): boolea
 
 export const getSnapshot = async (config?: string): Promise<string> => {
   const { stdout } = await execa('yarn', [
+    '--emoji',
+    'false',
     'eslint',
     ...(config ? ['-c', `${config}.js`] : []),
     '--print-config',
