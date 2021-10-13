@@ -1,5 +1,7 @@
 version: '0.2'
 language: en
+ignorePaths:
+  - ./**/*.snap
 words:
   - altnext
   - builtins
@@ -12,6 +14,8 @@ words:
   - dmitry
   - dodzin
   - eqeqeq
+  - eslintcache
+  - execa
   - ghpr
   - gorillaz
   - huskyrc
@@ -20,6 +24,7 @@ words:
   - mixme
   - necolas
   - plusplus
+  - prelint
   - prettierrc
   - roikoren
   - snyk

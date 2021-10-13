@@ -3,13 +3,17 @@
   "compilerOptions": {
     "noEmit": true
   },
+  "exclude": ["**/dist/**/*"],
   "include": [
-    "src/**/*",
+    "src/**/*.ts",
+    "__tests__/**/*.ts",
     "index.ts",
     "base.ts",
+    "playwright.ts",
     "type-checking.ts",
-    ".eslintrc.js",
+    ".eslintrc.ts",
     ".prettierrc.js",
-    "commitlint.config.js"
+    "commitlint.config.js",
+    "jest.config.ts"
   ]
 }

@@ -35,6 +35,7 @@ const typeChecking: Linter.Config = {
     '@typescript-eslint/prefer-nullish-coalescing': WARN,
     '@typescript-eslint/prefer-readonly': ERROR,
     '@typescript-eslint/prefer-reduce-type-parameter': ERROR,
+    '@typescript-eslint/prefer-regexp-exec': WARN,
     '@typescript-eslint/prefer-return-this-type': ERROR,
     '@typescript-eslint/require-array-sort-compare': ERROR,
     '@typescript-eslint/require-await': ERROR,
