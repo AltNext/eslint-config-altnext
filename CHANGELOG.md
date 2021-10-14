@@ -1,5 +1,25 @@
 # eslint-config-altnext
 
+## 2.2.0
+
+### Minor Changes
+
+- [#161](https://github.com/AltNext/eslint-config-altnext/pull/161) [`118cedf`](https://github.com/AltNext/eslint-config-altnext/commit/118cedfc48b630b514d93e22fdcc6108fdc6e9a2) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): bump dependency typescript to v4.4.4
+
+### Patch Changes
+
+- [#161](https://github.com/AltNext/eslint-config-altnext/pull/161) [`118cedf`](https://github.com/AltNext/eslint-config-altnext/commit/118cedfc48b630b514d93e22fdcc6108fdc6e9a2) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: internal refactor to not use npm version of `eslint-config-altnext`
+
+- [#161](https://github.com/AltNext/eslint-config-altnext/pull/161) [`118cedf`](https://github.com/AltNext/eslint-config-altnext/commit/118cedfc48b630b514d93e22fdcc6108fdc6e9a2) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): bump dependency eslint-plugin-playwright to v0.6.0
+
+- [#161](https://github.com/AltNext/eslint-config-altnext/pull/161) [`118cedf`](https://github.com/AltNext/eslint-config-altnext/commit/118cedfc48b630b514d93e22fdcc6108fdc6e9a2) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: split playwright to separate config
+
+- [#151](https://github.com/AltNext/eslint-config-altnext/pull/151) [`6359ce3`](https://github.com/AltNext/eslint-config-altnext/commit/6359ce3f7e8ea6c70bf9dd5226bd3fb01670ca31) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-jest to v25.0.6
+
+- [#161](https://github.com/AltNext/eslint-config-altnext/pull/161) [`118cedf`](https://github.com/AltNext/eslint-config-altnext/commit/118cedfc48b630b514d93e22fdcc6108fdc6e9a2) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): bump dependency eslint-plugin-import to v2.25.2
+
+- [#161](https://github.com/AltNext/eslint-config-altnext/pull/161) [`118cedf`](https://github.com/AltNext/eslint-config-altnext/commit/118cedfc48b630b514d93e22fdcc6108fdc6e9a2) Thanks [@roikoren755](https://github.com/roikoren755)! - test: add tests
+
 ## 2.1.1
 
 ### Patch Changes
