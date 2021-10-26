@@ -87,6 +87,9 @@ exports[`type-checking should match config when running 1`] = `
   ],
   \\"reportUnusedDisableDirectives\\": true,
   \\"rules\\": {
+    \\"@typescript-eslint/consistent-type-exports\\": [
+      2
+    ],
     \\"@typescript-eslint/dot-notation\\": [
       2
     ],
@@ -2360,6 +2363,7 @@ Object {
     },
   ],
   "rules": Object {
+    "@typescript-eslint/consistent-type-exports": 2,
     "@typescript-eslint/dot-notation": 2,
     "@typescript-eslint/naming-convention": Array [
       2,
