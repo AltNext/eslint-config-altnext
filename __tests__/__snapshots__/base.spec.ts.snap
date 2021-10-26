@@ -2149,6 +2149,9 @@ exports[`base should match config when running 1`] = `
     \\"use-isnan\\": [
       \\"error\\"
     ],
+    \\"@typescript-eslint/consistent-type-exports\\": [
+      2
+    ],
     \\"@typescript-eslint/dot-notation\\": [
       2
     ],

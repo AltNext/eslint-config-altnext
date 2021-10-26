@@ -5,6 +5,7 @@ import { ERROR, OFF, WARN } from './consts';
 const typeChecking: Linter.Config = {
   extends: ['plugin:@typescript-eslint/recommended-requiring-type-checking', './src/configs/base'],
   rules: {
+    '@typescript-eslint/consistent-type-exports': ERROR,
     '@typescript-eslint/dot-notation': ERROR,
     '@typescript-eslint/naming-convention': [
       ERROR,
