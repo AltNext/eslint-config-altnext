@@ -1,5 +1,0 @@
----
-"eslint-config-altnext": patch
----
-
-fix(deps): update typescript-eslint monorepo to v5.6.0

@@ -1,5 +1,57 @@
 # eslint-config-altnext
 
+## 2.2.2
+
+### Patch Changes
+
+- [#190](https://github.com/AltNext/eslint-config-altnext/pull/190) [`2dc601c`](https://github.com/AltNext/eslint-config-altnext/commit/2dc601c52a015eb990c10d956ff1a344771dd9ed) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update commitlint monorepo to v15 (major)
+
+- [#181](https://github.com/AltNext/eslint-config-altnext/pull/181) [`54ffa54`](https://github.com/AltNext/eslint-config-altnext/commit/54ffa54f16862163887dd1dacb1af8533f9f9b0c) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @changesets/cli to v2.18.0
+
+- [#199](https://github.com/AltNext/eslint-config-altnext/pull/199) [`6d06124`](https://github.com/AltNext/eslint-config-altnext/commit/6d0612454ffb7588027aa280d514441df3977b37) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @changesets/changelog-github to v0.4.2
+
+- [#183](https://github.com/AltNext/eslint-config-altnext/pull/183) [`787f883`](https://github.com/AltNext/eslint-config-altnext/commit/787f883f0231818c00b6b1f3002cc621ec4c1f1e) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-import to v2.25.3
+
+- [#193](https://github.com/AltNext/eslint-config-altnext/pull/193) [`64c4c34`](https://github.com/AltNext/eslint-config-altnext/commit/64c4c342196c0fd41f1b191a96c81683ea7e31c7) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-jest-formatting to v3.1.0
+
+- [#188](https://github.com/AltNext/eslint-config-altnext/pull/188) [`9acdf16`](https://github.com/AltNext/eslint-config-altnext/commit/9acdf164b346dc0e2ac29e09c27c5f8de4ed9470) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update typescript-eslint monorepo to v5.6.0
+
+- [#173](https://github.com/AltNext/eslint-config-altnext/pull/173) [`c8b0c52`](https://github.com/AltNext/eslint-config-altnext/commit/c8b0c52b6a4a8bc1d6d59a53a0963d8414d5413c) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.2.6
+
+- [#194](https://github.com/AltNext/eslint-config-altnext/pull/194) [`a511169`](https://github.com/AltNext/eslint-config-altnext/commit/a511169bf0f749a3193a5199ab4e20c886c9b6db) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v12.1.2
+
+- [#189](https://github.com/AltNext/eslint-config-altnext/pull/189) [`c1d5149`](https://github.com/AltNext/eslint-config-altnext/commit/c1d5149e32bcacaafa64657cfacc7221e0bb5934) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.13.2
+
+- [#187](https://github.com/AltNext/eslint-config-altnext/pull/187) [`1adcdf5`](https://github.com/AltNext/eslint-config-altnext/commit/1adcdf5a0cdf208125fb6ae83cc493936f06555d) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/eslint to v7.29.0
+
+- [#184](https://github.com/AltNext/eslint-config-altnext/pull/184) [`7b51b09`](https://github.com/AltNext/eslint-config-altnext/commit/7b51b09cdb69fa214a960685f58c2cd77c6b0695) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-react to v7.27.1
+
+- [#180](https://github.com/AltNext/eslint-config-altnext/pull/180) [`b2c92a0`](https://github.com/AltNext/eslint-config-altnext/commit/b2c92a0f0ef1169e6c8b785f050f579cf9009d1b) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-jest to v25.2.4
+
+- [#198](https://github.com/AltNext/eslint-config-altnext/pull/198) [`bf12254`](https://github.com/AltNext/eslint-config-altnext/commit/bf12254fe90596073fb25811f8d7893b7a504855) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency prettier to v2.5.1
+
+- [#200](https://github.com/AltNext/eslint-config-altnext/pull/200) [`c0afaa3`](https://github.com/AltNext/eslint-config-altnext/commit/c0afaa3ada4644391e920e65ffc6cc2a4703d880) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @changesets/cli to v2.18.1
+
+- [#186](https://github.com/AltNext/eslint-config-altnext/pull/186) [`6391fbc`](https://github.com/AltNext/eslint-config-altnext/commit/6391fbc5b17084df237c5b53a9b9df0ad5651f6a) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v12
+
+- [#191](https://github.com/AltNext/eslint-config-altnext/pull/191) [`02bbb43`](https://github.com/AltNext/eslint-config-altnext/commit/02bbb4362cd6293ea9fe56b694f7792f575f2f20) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update streetsidesoftware/cspell-action action to v1.3.5
+
+- [#197](https://github.com/AltNext/eslint-config-altnext/pull/197) [`e688b17`](https://github.com/AltNext/eslint-config-altnext/commit/e688b174a1884b6d907b0b6b40f9a6e53bc61c0e) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-jest to v25.3.0
+
+- [#176](https://github.com/AltNext/eslint-config-altnext/pull/176) [`1430d43`](https://github.com/AltNext/eslint-config-altnext/commit/1430d434450482b850503720060c80f8e02183e3) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.12.6
+
+- [#182](https://github.com/AltNext/eslint-config-altnext/pull/182) [`a7daa14`](https://github.com/AltNext/eslint-config-altnext/commit/a7daa149d57ecf34ee50d80ad6b27fb856777c58) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency eslint-plugin-react-hooks to v4.3.0
+
+- [#201](https://github.com/AltNext/eslint-config-altnext/pull/201) [`8b1058a`](https://github.com/AltNext/eslint-config-altnext/commit/8b1058a88d0a825df5636ce855877440e8f532e8) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency ts-jest to v27.1.1
+
+- [#192](https://github.com/AltNext/eslint-config-altnext/pull/192) [`e7fe322`](https://github.com/AltNext/eslint-config-altnext/commit/e7fe322632ce0879d9e231316b9f8854fb6671fe) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v4.5.2
+
+- [#178](https://github.com/AltNext/eslint-config-altnext/pull/178) [`0c89eed`](https://github.com/AltNext/eslint-config-altnext/commit/0c89eed013840afd92f22500c0f2ab4e17943d99) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update typescript-eslint monorepo to v5.3.1
+
+- [#177](https://github.com/AltNext/eslint-config-altnext/pull/177) [`d55ac90`](https://github.com/AltNext/eslint-config-altnext/commit/d55ac9001ad0b86913e4abff4409cb276f93eb27) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update commitlint monorepo to v14 (major)
+
+- [#195](https://github.com/AltNext/eslint-config-altnext/pull/195) [`edc6f10`](https://github.com/AltNext/eslint-config-altnext/commit/edc6f10d835244b4c6944b4cb9b10feff1a28efd) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update jest monorepo
+
 ## 2.2.1
 
 ### Patch Changes
