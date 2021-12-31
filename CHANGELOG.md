@@ -1,5 +1,23 @@
 # eslint-config-altnext
 
+## 2.2.3
+
+### Patch Changes
+
+- [#206](https://github.com/AltNext/eslint-config-altnext/pull/206) [`16af90f`](https://github.com/AltNext/eslint-config-altnext/commit/16af90fbce0bf01c9a5f0d9b35fac072502686df) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency ts-jest to v27.1.2
+
+- [#202](https://github.com/AltNext/eslint-config-altnext/pull/202) [`1516f30`](https://github.com/AltNext/eslint-config-altnext/commit/1516f307e9879f338aa07d29ab5eabd75d293ef0) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v4.5.4
+
+- [#208](https://github.com/AltNext/eslint-config-altnext/pull/208) [`89a2ef8`](https://github.com/AltNext/eslint-config-altnext/commit/89a2ef886a412e284cee33cb458d1bd3471e585b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @changesets/cli to v2.19.0
+
+- [#213](https://github.com/AltNext/eslint-config-altnext/pull/213) [`1d66951`](https://github.com/AltNext/eslint-config-altnext/commit/1d66951a9aefd3a309020ac18eccb8395c45f6cc) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update commitlint monorepo (major)
+
+- [#207](https://github.com/AltNext/eslint-config-altnext/pull/207) [`c9390f4`](https://github.com/AltNext/eslint-config-altnext/commit/c9390f4d9f1dd6689a2261991384951c8c33316d) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v12.1.3
+
+- [#203](https://github.com/AltNext/eslint-config-altnext/pull/203) [`314953e`](https://github.com/AltNext/eslint-config-altnext/commit/314953e32102388315919eda7019a8f5793598cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update jest monorepo
+
+- [#204](https://github.com/AltNext/eslint-config-altnext/pull/204) [`4cf4e4e`](https://github.com/AltNext/eslint-config-altnext/commit/4cf4e4eba984fe4e80ad3979478b23b125470cb8) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.14.0
+
 ## 2.2.2
 
 ### Patch Changes
